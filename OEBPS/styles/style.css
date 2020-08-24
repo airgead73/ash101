@@ -139,6 +139,19 @@ b.xl, .key-term {
   font-weight: bold;
 }
 
+p.big {
+  font-size: 19px;
+  font-family: Cambria;
+  margin-top: 1.5%;
+  text-align: center;
+  margin-bottom: 0.5%;
+}
+
+p.tx-center {
+  text-align: center;
+  font-family: Cambria;
+}
+
 p.src {
   color: #585858;
   font-size: 12px;
@@ -186,7 +199,19 @@ blockquote.pullquote {
   text-align: center;
 }
 
-/* CO */
+.link {
+  text-decoration: none;
+  color: #2f402d;
+  border-bottom: dotted 1.5px #2f402d;
+  transition: border-bottom-style .27s;
+  word-break: break-word;
+}
+
+.link:hover {
+  border-bottom-style: solid;
+}
+
+/* CHAPTER OPENER */
 section.co {
   background-color: #191c23;
   background-image: url(../Images/section-seperator2.png);
@@ -383,8 +408,298 @@ div.co_text p.key-point {
   background-image: url(../Images/11.0.jpg);
 }
 
+/* SECTION OPENER */
+.section-header {
+  padding: 22px 16% 22px;
+  margin-top: -12px;
+  border-top: 8px solid #DDD;
+}
+
+.section-header h1 {
+  display: block;
+  background-image: url(../Images/section-number-bg.png);
+  background-repeat: repeat-y;
+  background-position: top left;
+  margin-bottom: 75px;
+  padding-bottom: 0.25em;
+}
+
+.section-header {
+  padding: 22px 16% 22px;
+  margin-top: -12px;
+  border-top: 8px solid #DDD;
+}
+
+.section-header h1 {
+  display: block;
+  background-image: url(../Images/section-number-bg.png);
+  background-repeat: repeat-y;
+  background-position: top left;
+  margin-bottom: 75px;
+  padding-bottom: 0.25em;
+}
+
+.section-header h1 .sec_title {
+  font-size: 38px !important;
+  font-family: "RobotoRegular", sans-serif;
+  color: #484848;
+  line-height: 1.2 !important;
+}
+
+.section-header h1 .sec_number {
+  font-family: "RobotoRegular", sans-serif;
+  display: block;
+  color: #FFF;
+  padding: 12px 8px 15px 8px;
+  width: 110px;
+  /*changed*/
+  float: left;
+  font-size: 32px !important;
+  font-weight: 800;
+  text-align: center;
+  margin-right: 12px;
+  height: 210px;
+  /*added*/
+}
+
+h2.focus {
+  position: relative;
+  background-color: #FFF;
+  text-align: center;
+  padding: 32px 32px 64px;
+  box-shadow: 2px 2px 6px #ddd;
+  margin-top: 24px;
+}
+
+.focus_lbl {
+  display: block;
+  background-image: url(../Images/focus-question.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 102px;
+  margin: -60px 0px 24px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #c92b56;
+}
+
+.focus_q {
+  font-size: 32px;
+  font-weight: 300 !important;
+}
+
+.section-lead {
+  padding: 132px 0px 62px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  background-image: url(../Images/section-seperator3.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.section-lead p, .section-lead ol, .section-lead ul {
+  margin-left: auto;
+  margin-right: auto;
+  width: 58%;
+  max-width: 576px;
+  background-color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.section-lead p.intro {
+  font-size: 32px !important;
+}
+
+.section-body {
+  padding: 32px 6% 12px;
+  background-color: #fafafa;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.inner-section {
+  background: #fefefe !important;
+  padding: 10px 6.75% 32px;
+  width: 113.75%;
+  margin-left: -6.75%;
+  margin-top: 42px;
+  clear: both;
+}
+
+.single-column {
+  margin: 0px auto;
+  padding: 0px 12%;
+  clear: both;
+}
+
 /* LISTS */
+ol, ul {
+  list-style-position: outside;
+  margin: 24px auto;
+  padding: 0 12%;
+}
+
+ul ul, ul ol, ol ul, ol ol {
+  margin-bottom: 0;
+  padding-left: 1.5em;
+  overflow: visible;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul.checklist li {
+  list-style-type: none;
+  background-image: url(../Images/list-check.png);
+  background-repeat: no-repeat;
+  padding-left: 28px;
+  color: black;
+}
+
+li {
+  margin-bottom: 8px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.bl {
+  list-style-type: disc;
+}
+
+.nl {
+  list-style-type: decimal;
+}
+
+.l-none {
+  list-style-type: none;
+  margin-right: -10%;
+}
+
 /* FIGURES */
+.figure-1 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  /*added*/
+}
+
+.figure-1:after {
+  /* clearfix */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.figure-1 img {
+  width: 58%;
+  max-width: 576px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.figure-1 figcaption {
+  width: 40%;
+  max-width: 373px;
+  padding: 18px;
+  float: left;
+  background: #FFF;
+  border-right: 1px solid #d1d1d1;
+  border-top: 1px solid #d1d1d1;
+  border-left: 1px solid #d1d1d1;
+  border-bottom: 3px solid #c92b56;
+}
+
+.figure-1 div.figcaption-wide {
+  width: 75%;
+  float: none;
+  clear: both;
+  padding: 0 18px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #FFF;
+  border-right: 1px solid #d1d1d1;
+  border-top: 1px solid #d1d1d1;
+  border-left: 1px solid #d1d1d1;
+  border-bottom: 3px solid #c92b56;
+}
+
+.large-caption {
+  padding: 0px 18px 18px;
+  background: #FFF;
+  border-right: 1px solid #d1d1d1;
+  border-top: 1px solid #d1d1d1;
+  border-left: 1px solid #d1d1d1;
+  border-bottom: 3px solid #c92b56;
+}
+
+.figure-1 p.caption {
+  font-size: .9em;
+  text-align: right;
+}
+
+.figure-1 p.caption_new {
+  font-size: .9em;
+  text-align: left;
+  margin-top: none;
+}
+
+.figure-1 p.src {
+  text-align: right;
+}
+
+.figure-1 h4.figure_name {
+  margin-top: 0;
+  text-align: right;
+  border-bottom: none;
+  font-weight: normal;
+}
+
+.figure-1 h4.figure_name_new {
+  margin-top: 0;
+  text-align: left;
+  border-bottom: none;
+  font-weight: normal;
+  margin-bottom: none;
+}
+
+.figure-1 .figure_number {
+  position: relative;
+  font-weight: bold;
+  color: #2C3643;
+  font-size: 20.256px;
+}
+
+.figure-1 .figure_number:before {
+  position: absolute;
+  top: 0.3em;
+  left: -0.6em;
+  content: '';
+  display: block;
+  width: 0.35em;
+  height: 0.7em;
+  background-color: #2C3643;
+  border-radius: 0.35em 0 0 0.35em;
+}
+
+.figure-1 .figure_title {
+  color: #2C3643;
+}
+
 /* PHOTOS */
 /* TABLES */
 /* FEATURES */

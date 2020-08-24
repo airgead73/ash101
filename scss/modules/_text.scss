@@ -73,3 +73,15 @@ blockquote.pullquote {
   font-weight: 300;
   text-align: center;
 }
+
+.link {
+  text-decoration: none;
+  color: #2f402d;
+  border-bottom: dotted 1.5px #2f402d;
+  transition: border-bottom-style .27s;
+  word-break: break-word; 
+}
+
+.link:hover {
+  border-bottom-style: solid;
+}
