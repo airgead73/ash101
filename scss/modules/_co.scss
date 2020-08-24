@@ -134,6 +134,22 @@ div.co_text p.key-point{
   background-size: 100% 100%;
 }
 
+.co_aside_cr {
+  position: relative;
+  float: right;
+  width: 100%;
+  margin-left: 4%;
+}
+
+.co_src {
+ color:white;
+ float: right;
+ margin-right: 2px;
+ margin-bottom: -25px;
+ margin-top: 4px;
+ font-size: 12px;
+}
+
 #co_aside_ch1 {
   background-image: url(../Images/1.0.jpg);
 }
