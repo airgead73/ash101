@@ -6,23 +6,4 @@
   p.key-point {
     font-size: 22px;
     word-wrap: break-word; }
-  figure figcaption {
-    float: none;
-    padding-right: 0; }
-  .photo-landscape img {
-    width: 100%; }
-  .photo-landscape figcaption {
-    width: 100%; }
-  .photo-portrait img {
-    width: 100%; }
-  .photo-portrait figcaption {
-    width: 100%; }
-  /* figure sizes */
-  .figure-landscape img {
-    width: 100%; }
-  .figure-landscape figcaption {
-    width: 100%; }
-  .figure-portrait img {
-    width: 100%; }
-  .figure-portrait figcaption {
-    width: 100%; } }
+

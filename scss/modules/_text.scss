@@ -4,7 +4,7 @@ p {
 }
 
 .key-point {
-  //@extend %standardColumn;
+  @extend %standardColumn;
   font-size: 26px;
   font-weight: 300;
 }
@@ -18,7 +18,9 @@ b.xl, .key-term {
 }
 
 p.txt {
-  @extend %standardColumn;
+  width: 98%;
+  padding-right: 18%;
+  padding-left: 18%;
   font-size: 16px;
   font-weight: 400;
   font-style: normal;

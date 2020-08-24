@@ -1,4 +1,4 @@
-h3.h3, p.txt {
+.key-point {
   width: 98%;
   padding-left: 18%;
   padding-right: 18%;
@@ -104,9 +104,12 @@ h3 {
 }
 
 h3.h3 {
+  width: 64%;
   font-size: 30px;
   margin-top: 0;
   margin-bottom: 12px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 400;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -157,6 +160,9 @@ b.xl, .key-term {
 }
 
 p.txt {
+  width: 98%;
+  padding-right: 18%;
+  padding-left: 18%;
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
@@ -554,9 +560,14 @@ h2.focus {
 
 /* LISTS */
 ol, ul {
+  width: 98%;
+  padding-right: 18%;
+  padding-left: 18%;
+  font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 0 22%;
   list-style-position: outside;
-  margin: 24px auto;
-  padding: 0 12%;
 }
 
 ul ul, ul ol, ol ul, ol ol {
@@ -594,123 +605,3 @@ li {
   list-style-type: none;
   margin-right: -10%;
 }
-
-/* FIGURES */
-.figure-1 {
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-align: center;
-  /*added*/
-}
-
-.figure-1:after {
-  /* clearfix */
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.figure-1 img {
-  width: 58%;
-  max-width: 576px;
-  margin-right: 0;
-  margin-left: auto;
-}
-
-.figure-1 figcaption {
-  width: 40%;
-  max-width: 373px;
-  padding: 18px;
-  float: left;
-  background: #FFF;
-  border-right: 1px solid #d1d1d1;
-  border-top: 1px solid #d1d1d1;
-  border-left: 1px solid #d1d1d1;
-  border-bottom: 3px solid #c92b56;
-}
-
-.figure-1 div.figcaption-wide {
-  width: 75%;
-  float: none;
-  clear: both;
-  padding: 0 18px;
-  margin-left: auto;
-  margin-right: auto;
-  background: #FFF;
-  border-right: 1px solid #d1d1d1;
-  border-top: 1px solid #d1d1d1;
-  border-left: 1px solid #d1d1d1;
-  border-bottom: 3px solid #c92b56;
-}
-
-.large-caption {
-  padding: 0px 18px 18px;
-  background: #FFF;
-  border-right: 1px solid #d1d1d1;
-  border-top: 1px solid #d1d1d1;
-  border-left: 1px solid #d1d1d1;
-  border-bottom: 3px solid #c92b56;
-}
-
-.figure-1 p.caption {
-  font-size: .9em;
-  text-align: right;
-}
-
-.figure-1 p.caption_new {
-  font-size: .9em;
-  text-align: left;
-  margin-top: none;
-}
-
-.figure-1 p.src {
-  text-align: right;
-}
-
-.figure-1 h4.figure_name {
-  margin-top: 0;
-  text-align: right;
-  border-bottom: none;
-  font-weight: normal;
-}
-
-.figure-1 h4.figure_name_new {
-  margin-top: 0;
-  text-align: left;
-  border-bottom: none;
-  font-weight: normal;
-  margin-bottom: none;
-}
-
-.figure-1 .figure_number {
-  position: relative;
-  font-weight: bold;
-  color: #2C3643;
-  font-size: 20.256px;
-}
-
-.figure-1 .figure_number:before {
-  position: absolute;
-  top: 0.3em;
-  left: -0.6em;
-  content: '';
-  display: block;
-  width: 0.35em;
-  height: 0.7em;
-  background-color: #2C3643;
-  border-radius: 0.35em 0 0 0.35em;
-}
-
-.figure-1 .figure_title {
-  color: #2C3643;
-}
-
-/* PHOTOS */
-/* TABLES */
-/* FEATURES */

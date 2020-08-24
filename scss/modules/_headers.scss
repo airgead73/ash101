@@ -26,10 +26,12 @@ h3 {
 }
 
 h3.h3 {
-  @extend %standardColumn;
+  width: 64%;
   font-size: 30px;
   margin-top: 0;
   margin-bottom: 12px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 400;
   padding-top: 8px;
   padding-bottom: 8px;

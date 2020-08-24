@@ -1,9 +1,14 @@
 /* LISTS */ 
 
 ol, ul {
+  width: 98%;
+  padding-right: 18%;
+  padding-left: 18%;
+  font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 0 22%;
   list-style-position: outside;
-  margin: 24px auto;
-  padding: 0 12%;
 }
 
 ul ul, ul ol, ol ul, ol ol {
