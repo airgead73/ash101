@@ -17,3 +17,26 @@ section, figure, figcaption, header, footer, main, article, aside {
 .no-italics {
   font-style: normal;   
 }
+
+div, p, ol, ul, li, table, tr, th, td, blockquote, dl, dt, dd, h1, h2, h3, h4, h5, h6 {
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+}
+
+small, .text_small {
+  font-size: 0.889em;
+}
+img {
+  display: block;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}

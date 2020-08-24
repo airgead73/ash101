@@ -1,0 +1,63 @@
+/* TEXT */ 
+p {
+  margin-bottom: 1.25em;
+}
+
+.key-point {
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.key-point strong {
+  font-weight: bold;
+}
+
+b.xl, .key-term {
+  font-weight: bold;
+}
+
+p.src {
+  color: #585858;
+  font-size: 12px;
+  font-style: italic;
+  word-break: break-word; /*added*/
+}
+
+span.src {
+  color: #585858;
+  font-size: 12px;
+  font-style: normal;
+}
+
+p.src i, p.src .bi, p.src .ui, p.src a {
+  font-style: normal;
+}
+
+p.cr {
+  color: #585858;
+  font-size: 12px;
+  font-style: italic;
+  text-align: right;
+  margin: 0.5em 0;
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 4px;
+}
+
+p.credit i, p.credit .bi, p.credit .ui, p.credit a {
+  /* Reverse italics */
+  font-style: normal;
+}
+
+/* ----- blockquotes ----- */
+blockquote.pullquote {
+  display: block;
+  padding: 15px 30px;
+  margin: 40px 0px;
+  border-top: 1px solid #2C3643;
+  border-bottom: 1px solid #2C3643;
+  color: #484848;
+  font-size: 36px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  text-align: center;
+}
