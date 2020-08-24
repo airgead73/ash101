@@ -4,8 +4,8 @@
   "description": "Refactor css for ebook.",
   "main": "index.js",
   "scripts": {
-    "dev": "node-sass scss/styles.scss OEBPS/style.css",
-    "watch": "node-sass scss/styles.scss OEBPS/style.css --watch",
+    "dev": "node-sass scss/styles.scss OEBPS/styles/style.css --output-style expanded",
+    "watch": "node-sass scss/styles.scss OEBPS/styles/style.css --output-style expanded --watch",
     "compile": "node-sass scss/styles.scss scss/raw.css",
     "prefix": "postcss --use autoprefixer -b 'last 5 versions' scss/raw.css -o scss/prefix.css",
     "compress": "node-sass scss/prefix.css OEBPS/style.css --output-style compressed",
