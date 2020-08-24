@@ -4,6 +4,7 @@ p {
 }
 
 .key-point {
+  //@extend %standardColumn;
   font-size: 26px;
   font-weight: 300;
 }
@@ -16,16 +17,23 @@ b.xl, .key-term {
   font-weight: bold;
 }
 
-p.big {
-  font-size: 19px;
-  font-family: Cambria;
-  margin-top: 1.5%;
-  text-align: center;
-  margin-bottom: 0.5%;
-}
-p.tx-center{
-  text-align: center;
-  font-family: Cambria;
+p.txt {
+  @extend %standardColumn;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4;
+  }
+  
+p.ext {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+  margin-left: 1.5em;
+  margin-bottom: 1em;
 }
 
 p.src {

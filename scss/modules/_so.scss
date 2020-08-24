@@ -1,4 +1,4 @@
-/* SECTION OPENER */ 
+/* SECTIONS */ 
 
 .section-header {
   padding: 22px 16% 22px;
@@ -109,23 +109,9 @@ h2.focus {
 }
 
 .section-body {
-  padding: 32px 6% 12px;
-  background-color: #fafafa;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-}
-
-.inner-section {
-  background: #fefefe !important;
-  padding: 10px 6.75% 32px;
-  width: 113.75%;
-  margin-left: -6.75%;
-  margin-top: 42px;
-  clear:both;
-}
-
-.single-column {
-  margin: 0px auto;
-  padding: 0px 12%;
-  clear: both;
+  padding: 32px;
+  border-radius: 4px;
+  &.bg-1 {
+    background-color: #fafafa;
+  }
 }

@@ -69,7 +69,7 @@ h1 .ct_number {
 }
 
 h2 .ct_title {
-font-family: "RobotoRegular", sans-serif;
+  font-family: "RobotoRegular", sans-serif;
   font-size: 36px;
   line-height: 40px;
   color: #ffffff;
@@ -118,6 +118,8 @@ font-family: "RobotoRegular", sans-serif;
 }
 
 div.co_text p.txt{
+  padding-left: 0;
+  padding-right: 0;
   color: white;  
 }
 

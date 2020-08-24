@@ -1,3 +1,11 @@
+h3.h3, p.txt {
+  width: 98%;
+  padding-left: 18%;
+  padding-right: 18%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* EDU 645 CSS refactor - August 2020 */
 /* FONTS */
 @font-face {
@@ -66,7 +74,6 @@ img {
 
 /* PAGE */
 section.page {
-  background-color: #f1f1f1;
   clear: both;
 }
 
@@ -94,6 +101,16 @@ h3 {
   padding-top: 8px;
   border-bottom: 2px solid #ddd;
   padding-bottom: 4px;
+}
+
+h3.h3 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 400;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #dddddd;
 }
 
 h4 {
@@ -139,17 +156,22 @@ b.xl, .key-term {
   font-weight: bold;
 }
 
-p.big {
-  font-size: 19px;
-  font-family: Cambria;
-  margin-top: 1.5%;
-  text-align: center;
-  margin-bottom: 0.5%;
+p.txt {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4;
 }
 
-p.tx-center {
-  text-align: center;
-  font-family: Cambria;
+p.ext {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+  margin-left: 1.5em;
+  margin-bottom: 1em;
 }
 
 p.src {
@@ -331,6 +353,8 @@ h2 .ct_title {
 }
 
 div.co_text p.txt {
+  padding-left: 0;
+  padding-right: 0;
   color: white;
 }
 
@@ -408,7 +432,7 @@ div.co_text p.key-point {
   background-image: url(../Images/11.0.jpg);
 }
 
-/* SECTION OPENER */
+/* SECTIONS */
 .section-header {
   padding: 22px 16% 22px;
   margin-top: -12px;
@@ -520,25 +544,12 @@ h2.focus {
 }
 
 .section-body {
-  padding: 32px 6% 12px;
+  padding: 32px;
+  border-radius: 4px;
+}
+
+.section-body.bg-1 {
   background-color: #fafafa;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-}
-
-.inner-section {
-  background: #fefefe !important;
-  padding: 10px 6.75% 32px;
-  width: 113.75%;
-  margin-left: -6.75%;
-  margin-top: 42px;
-  clear: both;
-}
-
-.single-column {
-  margin: 0px auto;
-  padding: 0px 12%;
-  clear: both;
 }
 
 /* LISTS */
