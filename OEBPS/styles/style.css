@@ -1,4 +1,45 @@
+/* EDU 645 CSS refactor - August 2020 */
+/* FONTS */
+@font-face {
+  font-family: RobotoBold;
+  font-weight: bold;
+  font-style: normal;
+  src: url(../fonts/robotoslab_bold.otf);
+}
+
+@font-face {
+  font-family: RobotoRegular;
+  font-weight: normal;
+  font-style: normal;
+  src: url(../fonts/robotoslab_regular.otf);
+}
+
+@font-face {
+  font-family: RobotoLight;
+  font-weight: lighter;
+  font-style: normal;
+  src: url(../fonts/robotoslab_light.otf);
+}
+
 /* BASE */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+section, figure, figcaption, header, footer, main, article, aside {
+  display: block;
+}
+
+.no-italics {
+  font-style: normal;
+}
+
 /* PAGE */
 /* HEADERS */
 /* CO */

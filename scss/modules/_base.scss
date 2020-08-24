@@ -1,2 +1,19 @@
 /* BASE */ 
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+section, figure, figcaption, header, footer, main, article, aside {
+  display: block;
+}
+
+.no-italics {
+  font-style: normal;   
+}
