@@ -522,7 +522,8 @@ li {
   padding-left: 10px;
   padding-right: 10px; }
   .figure img {
-    max-width: 60%; }
+    max-width: 60%;
+    -ms-flex: 0 0 auto; }
   .figure h4.figure_name {
     margin-top: 0;
     text-align: right;
@@ -548,6 +549,7 @@ li {
     font-size: 26px; }
   .figure figcaption {
     width: 40%;
+    -ms-flex: 0 0 auto;
     margin-right: 30px;
     padding: 18px;
     background-color: #ffffff;
