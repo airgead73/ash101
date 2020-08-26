@@ -24,24 +24,13 @@
     flex-wrap: wrap;
     -ms-flex-wrap: wrap;  
   }
-
-  .figure img,
-  .figure.img-40 img,
-  .figure.img-50 img,
-  .figure.img-70 img {
-    max-width: 100%;
-  }
-
+  
   .figure figcaption,
   .figure.img-40 figcaption,
   .figure.img-50 figcaption,
   .figure.img-70 figcaption {
-    width: 100%;
     margin-bottom: 40px;
-  }  
-  
-  .figure.container-sm {
-    width: 100%;
-  }  
+  }    
+ 
 
 }

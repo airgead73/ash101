@@ -6,7 +6,7 @@
   display: flex;
   flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
-  width: 80%;
+  width: 100%;
   margin-top: 32px;
   margin-bottom: 32px;
   margin-right: auto;
@@ -16,11 +16,11 @@
   padding-left: 10px;
   padding-right: 10px;
   img {
-    max-width: 60%; /* img width plus figcaption width must equal 100 */
+    flex: 2;
     -ms-flex: 0 0 auto; /* needed for IE */
   }
   figcaption {    
-    width: 40%; /* img width plus figcaption width must equal 100 */
+    flex: 1;
     -ms-flex: 0 0 auto; /* needed for IE */     
     margin-right: 30px;
     padding: 18px;
@@ -63,41 +63,3 @@
   }
 }
 
-/* ADJUST relative sizes of figcaptions and images */
-
-.figure.img-70 {
-  img {
-    max-width: 70%; /* img width plus figcaption width must equal 100 */
-  }
-  figcaption {
-    width: 30%; /* img width plus figcaption width must equal 100 */
-  }
-}
-
-.figure.img-50 {
-  img {
-    max-width: 50%; /* img width plus figcaption width must equal 100 */
-  }
-  figcaption {
-    width: 50%; /* img width plus figcaption width must equal 100 */
-  }
-}
-
-.figure.img-40 {
-  img {
-    max-width: 40%; /* img width plus figcaption width must equal 100 */
-  }
-  figcaption {
-    width: 60%; /* img width plus figcaption width must equal 100 */
-  }
-}
-
-/* ADJUST figure container width */
-
-.figure.container-xl {
-  width: 100%;
-}
-
-.figure.container-sm {
-  width: 65%;
-}
