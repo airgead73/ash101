@@ -25,11 +25,11 @@
   padding-right: 10px;
   img {
     -ms-flex-preferred-size: 60%;
-    flex-basis: 60%;
+    flex-basis: 60%; /* width */ 
   }
   figcaption { 
     -ms-flex-preferred-size: 35%;
-    flex-basis: 35%;   
+    flex-basis: 35%; /* width */   
     padding: 18px;
     background-color: #ffffff;
     border-top: 1px solid #d1d1d1;
