@@ -608,6 +608,10 @@ li {
 
 /* FIGURES */
 .figure {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
   width: 100%;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -619,7 +623,12 @@ li {
   padding-right: 10px;
 }
 
+.figure img {
+  flex-basis: 60%;
+}
+
 .figure figcaption {
+  flex-basis: 35%;
   padding: 18px;
   background-color: #ffffff;
   border-top: 1px solid #d1d1d1;

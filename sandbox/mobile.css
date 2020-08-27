@@ -1,0 +1,14 @@
+@media only screen and (max-width: 750px) {
+  .figure {
+    flex-direction: column;
+  }
+
+  .figure img {
+    flex-basis: 100%;
+  }
+
+  .figure figcaption {
+    flex-basis: 100%;
+  }
+  
+}

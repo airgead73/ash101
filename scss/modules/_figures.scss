@@ -1,6 +1,10 @@
 /* FIGURES */ 
 
 .figure {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
   width: 100%;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -10,7 +14,11 @@
   padding-bottom: 40px;
   padding-left: 10px;
   padding-right: 10px;
-  figcaption {    
+  img {
+    flex-basis: 60%;
+  }
+  figcaption { 
+    flex-basis: 35%;   
     padding: 18px;
     background-color: #ffffff;
     border-top: 1px solid #d1d1d1;
