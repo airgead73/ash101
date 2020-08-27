@@ -608,11 +608,6 @@ li {
 
 /* FIGURES */
 .figure {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
   width: 100%;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -624,17 +619,7 @@ li {
   padding-right: 10px;
 }
 
-.figure img {
-  flex: 2;
-  -ms-flex: 0 0 auto;
-  /* needed for IE */
-}
-
 .figure figcaption {
-  flex: 1;
-  -ms-flex: 0 0 auto;
-  /* needed for IE */
-  margin-right: 30px;
   padding: 18px;
   background-color: #ffffff;
   border-top: 1px solid #d1d1d1;
