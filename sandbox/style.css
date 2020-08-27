@@ -633,8 +633,8 @@ li {
 }
 
 .figure img {
-  -ms-flex-preferred-size: 60%;
-  flex-basis: 60%;
+  -ms-flex-preferred-size: 55%;
+  flex-basis: 55%;
   /* width */
 }
 
