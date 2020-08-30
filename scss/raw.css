@@ -513,13 +513,11 @@ li {
 
 /* FIGURES */
 .figure {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  width: 80%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
   margin-top: 32px;
   margin-bottom: 32px;
   margin-right: auto;
@@ -529,16 +527,13 @@ li {
   padding-left: 10px;
   padding-right: 10px; }
   .figure img {
-    max-width: 60%;
-    /* img width plus figcaption width must equal 100 */
-    -ms-flex: 0 0 auto;
-    /* needed for IE */ }
+    width: 55%;
+    max-width: 500px;
+    flex-basis: auto; }
   .figure figcaption {
     width: 40%;
-    /* img width plus figcaption width must equal 100 */
-    -ms-flex: 0 0 auto;
-    /* needed for IE */
-    margin-right: 30px;
+    max-width: 400px;
+    flex-basis: auto;
     padding: 18px;
     background-color: #ffffff;
     border-top: 1px solid #d1d1d1;
@@ -571,35 +566,3 @@ li {
   .figure .figure_title {
     color: #2c3643;
     font-size: 26px; }
-
-/* ADJUST relative sizes of figcaptions and images */
-.figure.img-70 img {
-  max-width: 70%;
-  /* img width plus figcaption width must equal 100 */ }
-
-.figure.img-70 figcaption {
-  width: 30%;
-  /* img width plus figcaption width must equal 100 */ }
-
-.figure.img-50 img {
-  max-width: 50%;
-  /* img width plus figcaption width must equal 100 */ }
-
-.figure.img-50 figcaption {
-  width: 50%;
-  /* img width plus figcaption width must equal 100 */ }
-
-.figure.img-40 img {
-  max-width: 40%;
-  /* img width plus figcaption width must equal 100 */ }
-
-.figure.img-40 figcaption {
-  width: 60%;
-  /* img width plus figcaption width must equal 100 */ }
-
-/* ADJUST figure container width */
-.figure.container-xl {
-  width: 100%; }
-
-.figure.container-sm {
-  width: 65%; }
