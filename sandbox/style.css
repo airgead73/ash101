@@ -608,19 +608,10 @@ li {
 
 /* FIGURES */
 .figure {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: flex-start;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -633,15 +624,15 @@ li {
 }
 
 .figure img {
-  -ms-flex-preferred-size: 55%;
-  flex-basis: 55%;
-  /* width */
+  width: 55%;
+  max-width: 500px;
+  flex-basis: auto;
 }
 
 .figure figcaption {
-  -ms-flex-preferred-size: 35%;
-  flex-basis: 35%;
-  /* width */
+  width: 40%;
+  max-width: 400px;
+  flex-basis: auto;
   padding: 18px;
   background-color: #ffffff;
   border-top: 1px solid #d1d1d1;
