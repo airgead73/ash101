@@ -1,34 +1,54 @@
-/* BASE */ 
+/* BASE */
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-
-.no-italics {
-  font-style: normal;   
-}
 body {
-  max-width: 1024px;
-  margin: 0 auto;
-  padding: 0;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0;
 }
-section, figure, figcaption, div.figcaption-wide {
-  display: block;
+
+section,
+figure,
+figcaption,
+article,
+aside,
+header,
+footer {
+	display: block;
 }
-div, p, ol, ul, li, table, tr, th, td, blockquote, dl, dt, dd {
-  color: black;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.25;
-  margin: 0;
-  padding: 0;
+
+div,
+p,
+ol,
+ul,
+li,
+table,
+tr,
+th,
+td,
+blockquote,
+dl,
+dt,
+dd {
+	color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.25;
+	margin: 0;
+	padding: 0;
 }
 
 img {
- display: block;  
- max-width: 100%;
- height: auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+img.scaled {
+	margin: 0 auto !important;
 }

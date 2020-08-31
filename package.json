@@ -12,6 +12,18 @@
     "expanded": "node-sass scss/prefix.css OEBPS/styles/style.css --output-style expanded",
     "build": "npm-run-all compile prefix expanded"
   },
+  "prettier": {
+    "tabWidth": 4,
+    "useTabs": true,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "jsxBracketSameLine": false,
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "parser": "scss",
+    "proseWrap": "always"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/airgead73/ash101.git"
