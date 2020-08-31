@@ -1,0 +1,94 @@
+/* VIDEO */
+
+.video-head {
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	margin: 0.25em 0 0.5em 0;
+	padding: 5px;
+	clear: none;
+}
+
+.video-caption {
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0.5em 0em;
+	padding: 5px;
+}
+
+div.video-right {
+	font-size: 12px;
+	border: thin solid #4c7776;
+	width: 410px;
+	float: right;
+	-moz-border-radius: 10px;
+	margin-top: 0.875em;
+	margin-right: 1em;
+	margin-bottom: 0.875em;
+	margin-left: 1em;
+	/* [disabled]border-radius: 25px; */
+	padding: 0.5em;
+	clear: left;
+}
+
+div.video-right-FOD {
+	font-size: 12px;
+	border: thin solid #4c7776;
+	width: 430px;
+	float: right;
+	-moz-border-radius: 10px;
+	margin-top: 0.875em;
+	margin-right: 1em;
+	margin-bottom: 0.875em;
+	margin-left: 1em;
+	/* [disabled]border-radius: 25px; */
+	padding: 0.5em;
+	clear: left;
+}
+
+div.video-left {
+	font-size: 12px;
+	border: thin solid #4c7776;
+	width: 575px;
+	float: left;
+	-moz-border-radius: 10px;
+	margin-top: 0.875em;
+	margin-right: 1em;
+	margin-bottom: 0.875em;
+	margin-left: 1em;
+	/* [disabled]border-radius: 25px; */
+	padding: 0.5em;
+	clear: right;
+}
+
+div.video-center {
+	font-size: 12px;
+	border: thin solid #4c7776;
+	width: 425px;
+	float: none;
+	-moz-border-radius: 10px;
+	margin-top: 0.875em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+	/* [disabled]border-radius: 25px; */
+	padding: 0.5em;
+	clear: both;
+}
+
+div.video-center-FOD {
+	font-size: 12px;
+	border: thin solid #4c7776;
+	width: 440px;
+	float: none;
+	-moz-border-radius: 10px;
+	margin-top: 0.875em;
+	margin-right: auto;
+	margin-bottom: 0.875em;
+	margin-left: auto;
+	/* [disabled]border-radius: 25px; */
+	padding: 0.5em;
+	clear: both;
+}
