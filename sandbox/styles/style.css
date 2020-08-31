@@ -617,14 +617,6 @@ p.tx-center {
 }
 
 /* CHAPTER OPENER */
-div.co_text p.txt {
-  color: white;
-}
-
-div.co_text p.key-point {
-  color: white;
-}
-
 section.co {
   background-color: #191c23;
   background-image: url(../Images/section-seperator2.png);
@@ -645,113 +637,47 @@ section.co {
 }
 
 #co_header_ch1 {
-  width: 100%;
-  padding: 122px 0px;
-  text-align: center;
-  color: #ffffff;
   background-image: url(../Images/1.0_chopener.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 #co_header_ch2 {
-  width: 100%;
-  padding: 122px 0px;
-  text-align: center;
-  color: #ffffff;
   background-image: url(../Images/2.0_chopener.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 #co_header_ch3 {
-  width: 100%;
-  padding: 122px 0px;
-  text-align: center;
-  color: #ffffff;
   background-image: url(../Images/3.0_chopener.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 #co_header_ch4 {
-  width: 100%;
-  padding: 122px 0px;
-  text-align: center;
-  color: #ffffff;
   background-image: url(../Images/4.0_chopener.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 #co_header_ch5 {
-  width: 100%;
-  padding: 122px 0px;
-  text-align: center;
-  color: #ffffff;
   background-image: url(../Images/5.0_chopener.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 #co_header_ch6 {
-  width: 100%;
-  padding: 122px 0px;
-  text-align: center;
-  color: #ffffff;
   background-image: url(../Images/6.0_chopener.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 #co_header_ch7 {
-  width: 100%;
-  padding: 122px 0px;
-  text-align: center;
-  color: #ffffff;
   background-image: url(../Images/7.0_chopener.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 #co_header_ch8 {
-  width: 100%;
-  padding: 122px 0px;
-  text-align: center;
-  color: #ffffff;
   background-image: url(../Images/8.0_chopener.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 #co_header_ch9 {
-  width: 100%;
-  padding: 122px 0px;
-  text-align: center;
-  color: #ffffff;
   background-image: url(../Images/9.0_chopener.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 #co_header_ch10 {
-  width: 100%;
-  padding: 122px 0px;
-  text-align: center;
-  color: #ffffff;
   background-image: url(../Images/10.0_chopener.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 #co_header_ch11 {
-  width: 100%;
-  padding: 122px 0px;
-  text-align: center;
-  color: #ffffff;
   background-image: url(../Images/11.0_chopener.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 h1 .ct_number {
@@ -802,82 +728,34 @@ h2 .ct_title {
 }
 
 .co_intro {
-  display: block;
-  position: relative;
-  padding-right: 55%;
-  padding-left: 6%;
-  min-height: 350px;
-  /*added*/
+  display: flex;
+  flex-direction: row;
+}
+
+.co_text {
+  width: 50%;
+  flex-basis: auto;
+  padding: 0 6%;
+}
+
+.co_text p.txt,
+.co_text p.key-point {
+  color: white;
 }
 
 .co_aside {
-  position: absolute;
-  top: 0;
-  right: 0;
   width: 50%;
-  padding-top: 38%;
+  flex-basis: auto;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
-#co_aside_ch1 {
-  background-image: url(../Images/1.0.jpg);
-}
-
-#co_aside_ch2 {
-  background-image: url(../Images/2.0.jpg);
-}
-
-#co_aside_ch3 {
-  background-image: url(../Images/3.0.jpg);
-}
-
-#co_aside_ch4 {
-  background-image: url(../Images/4.0.jpg);
-}
-
-#co_aside_ch5 {
-  background-image: url(../Images/5.0.jpg);
-}
-
-#co_aside_ch6 {
-  background-image: url(../Images/6.0.jpg);
-}
-
-#co_aside_ch7 {
-  background-image: url(../Images/7.0.jpg);
-}
-
-#co_aside_ch8 {
-  background-image: url(../Images/8.0.jpg);
-}
-
-#co_aside_ch9 {
-  background-image: url(../Images/9.0.jpg);
-}
-
-#co_aside_ch10 {
-  background-image: url(../Images/10.0.jpg);
-}
-
-#co_aside_ch11 {
-  background-image: url(../Images/11.0.jpg);
-}
-
 .co_aside_cr {
-  position: relative;
-  float: right;
-  width: 100%;
-  margin-left: 4%;
-}
-
-.co_src {
   color: white;
-  float: right;
-  margin-right: 2px;
-  margin-bottom: -25px;
-  margin-top: 4px;
   font-size: 12px;
+  text-align: right;
+  margin-top: 4px;
+  margin-right: 4px;
 }
 
 /* SECTIONS */
