@@ -51,5 +51,13 @@
     "node-sass": "^4.14.1",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^7.1.1"
-  }
+  },
+  "browswerslist": [
+    "Edge 15",
+    "Edge 16",
+    "IE 10",
+    "IE 11",
+    "Chrome 80",
+    "Firefox 76"
+  ]
 }
