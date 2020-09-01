@@ -81,9 +81,27 @@ section.page {
   clear: both;
 }
 
+.right-column {
+  width: 50%;
+  float: right;
+  padding: 0px 2% 0px 0px;
+  clear: right;
+}
+
+.section-body {
+  padding: 32px;
+  background-color: #fafafa;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.inner-section {
+  background: #fefefe !important;
+  margin-top: 42px;
+  clear: both;
+}
+
 .single-column {
-  margin: 0px auto;
-  padding: 0px 12%;
   clear: both;
 }
 
@@ -92,6 +110,11 @@ section.page {
   float: right;
   padding: 0px 2% 0px 0px;
   clear: right;
+}
+
+.right-column p {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 [class^='article-custom-'] {
@@ -451,10 +474,13 @@ h2 {
   font-weight: 500;
 }
 
-h3 {
+h3,
+h3.h3 {
   font-size: 30px;
   font-weight: 400;
   margin: 0px 0px 12px;
+  margin-left: 16%;
+  margin-right: 16%;
   padding-top: 8px;
   border-bottom: 2px solid #ddd;
   padding-bottom: 4px;
@@ -486,15 +512,38 @@ h4.h4 {
 }
 
 /* TEXT */
-.no-italics {
-  font-style: normal;
-}
-
 p {
   margin-bottom: 1.25em;
 }
 
+p.txt {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-bottom: 1em;
+  padding: 0;
+}
+
+p.ext {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+
 .key-point {
+  margin-top: 0;
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-bottom: 1em;
   font-size: 26px;
   font-weight: 300;
 }
@@ -590,30 +639,6 @@ span.no_italic {
 
 span.txt_bold {
   font-weight: bold;
-}
-
-.text_centre {
-  text-align: center;
-  font-size: 13px;
-}
-
-p.big {
-  font-size: 19px;
-  font-family: Cambria;
-  margin-top: 1.5%;
-  text-align: center;
-  margin-bottom: 0.5%;
-}
-
-p.tx-center {
-  text-align: center;
-  font-family: Cambria;
-}
-
-.middle_txt {
-  vertical-align: middle;
-  text-align: center;
-  padding-right: 0px;
 }
 
 /* CHAPTER OPENER */
@@ -741,6 +766,8 @@ h2 .ct_title {
 .co_text p.txt,
 .co_text p.key-point {
   color: white;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .co_aside {
@@ -859,46 +886,12 @@ h2.focus {
   font-size: 32px !important;
 }
 
-.section-body {
-  padding: 32px 6% 12px;
-  background-color: #fafafa;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-}
-
-.inner-section {
-  background: #fefefe !important;
-  padding: 10px 6.75% 32px;
-  width: 113.75%;
-  margin-left: -6.75%;
-  margin-top: 42px;
-  clear: both;
-}
-
-.single-column {
-  margin: 0px auto;
-  padding: 0px 12%;
-  clear: both;
-}
-
-.right-column {
-  width: 50%;
-  float: right;
-  padding: 0px 2% 0px 0px;
-  clear: right;
-}
-
-.right-column p {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 /* LISTS */
 ol,
 ul {
   list-style-position: outside;
-  margin: 24px auto;
-  padding: 0 12%;
+  margin: 24px 0;
+  padding: 0 18%;
 }
 
 ul ul,
@@ -1554,31 +1547,6 @@ p.tx-glo {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: justify;
   margin-left: 1em;
-}
-
-/*Newly Added css below*/
-p.txt {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.4;
-  margin: 0;
-  padding: 0;
-  margin-left: 0em;
-  margin-bottom: 1em;
-}
-
-p.ext {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.25;
-  margin: 0;
-  padding: 0;
-  margin-left: 1.5em;
-  margin-bottom: 1em;
 }
 
 p.reference {

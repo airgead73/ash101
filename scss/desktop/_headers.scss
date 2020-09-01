@@ -19,10 +19,13 @@ h2 {
 	font-weight: 500;
 }
 
-h3 {
+h3,
+h3.h3 {
 	font-size: 30px;
 	font-weight: 400;
 	margin: 0px 0px 12px;
+	margin-left: $mainColumn;
+	margin-right: $mainColumn;
 	padding-top: 8px;
 	border-bottom: 2px solid #ddd;
 	padding-bottom: 4px;
