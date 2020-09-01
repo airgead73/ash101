@@ -1,5 +1,11 @@
 @media only screen and (max-width: 750px) {
   /* CHAPTER OPENER */
+  .co_header {
+    padding: 82px 6%;
+  }
+  .quote_text {
+    padding: 18px 4% 0px;
+  }
   .co_intro {
     flex-direction: column;
   }
