@@ -746,8 +746,6 @@ h2 .ct_title {
 .co_aside {
   width: 50%;
   flex-basis: auto;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
 }
 
 .co_aside_cr {

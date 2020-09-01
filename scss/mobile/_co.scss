@@ -1,1 +1,14 @@
 /* CHAPTER OPENER */
+
+.co_intro {
+	flex-direction: column;
+}
+
+.co_text {
+	width: 100%;
+}
+
+.co_aside {
+	width: 100%;
+	padding: 5% 10%;
+}
