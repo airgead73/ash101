@@ -81,28 +81,11 @@ section.page {
   clear: both;
 }
 
-.right-column {
-  width: 50%;
-  float: right;
-  padding: 0px 2% 0px 0px;
-  clear: right;
-}
-
-.section-body {
+.inner-section {
   padding: 32px;
   background-color: #fafafa;
   background-repeat: no-repeat;
   background-position: bottom center;
-}
-
-.inner-section {
-  background: #fefefe !important;
-  margin-top: 42px;
-  clear: both;
-}
-
-.single-column {
-  clear: both;
 }
 
 .right-column {
