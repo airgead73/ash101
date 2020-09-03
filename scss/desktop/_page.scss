@@ -1,18 +1,18 @@
 /* PAGE */
 
+// #fafafa
+// fefefe
+
 section.page {
 	background-color: #f1f1f1;
 	clear: both;
 }
 
-// #fafafa
-// fefefe
-
-.inner-section {
-	padding: 32px;
-	background-color: #fafafa;
-	background-repeat: no-repeat;
-	background-position: bottom center;
+.section-body {
+	padding: 32px 0;
+	&.bg-white {
+		background-color: #fefefe;
+	}
 }
 
 .right-column {

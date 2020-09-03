@@ -27,7 +27,7 @@
 }
 
 body {
-  max-width: 1024px;
+  max-width: 964px;
   margin: 0 auto;
   padding: 0;
 }
@@ -81,11 +81,12 @@ section.page {
   clear: both;
 }
 
-.inner-section {
-  padding: 32px;
-  background-color: #fafafa;
-  background-repeat: no-repeat;
-  background-position: bottom center;
+.section-body {
+  padding: 32px 0;
+}
+
+.section-body.bg-white {
+  background-color: #fefefe;
 }
 
 .right-column {
