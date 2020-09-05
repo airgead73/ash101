@@ -482,6 +482,7 @@ h2.h2 {
   padding: 12px 8px;
   color: #484848;
   clear: both;
+  width: 95%;
   margin: 32px auto;
   text-align: center;
   border-bottom: 3px solid #c92b56;
@@ -519,7 +520,8 @@ p.ext {
   line-height: 1.25;
   margin: 0;
   padding: 0;
-  margin-left: 1.5em;
+  margin-left: 21%;
+  margin-right: 21%;
   margin-bottom: 1em;
 }
 
@@ -919,6 +921,10 @@ li {
 
 .li_text {
   color: #000000 !important;
+}
+
+.li_text .key-point {
+  margin-left: 0;
 }
 
 /* FIGURES */

@@ -47,4 +47,7 @@ li {
 
 .li_text {
 	color: #000000 !important;
+	& .key-point {
+		margin-left: 0;
+	}
 }

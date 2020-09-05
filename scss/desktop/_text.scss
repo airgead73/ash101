@@ -23,7 +23,8 @@ p.ext {
 	line-height: 1.25;
 	margin: 0;
 	padding: 0;
-	margin-left: 1.5em;
+	margin-left: ($mainColumn + 5);
+	margin-right: ($mainColumn + 5);
 	margin-bottom: 1em;
 }
 
