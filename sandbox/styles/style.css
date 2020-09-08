@@ -931,6 +931,7 @@ li {
 .figure {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   width: 98%;
   margin-top: 32px;
   margin-bottom: 32px;
