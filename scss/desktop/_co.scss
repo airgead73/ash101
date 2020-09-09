@@ -111,12 +111,18 @@ h2 .ct_title {
 }
 
 .co_intro {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
 	flex-direction: row;
 }
 
 .co_text {
 	width: 50%;
+	-ms-flex-preferred-size: auto;
 	flex-basis: auto;
 	padding: 0 6%;
 	p.txt,
@@ -129,6 +135,7 @@ h2 .ct_title {
 
 .co_aside {
 	width: 50%;
+	-ms-flex-preferred-size: auto;
 	flex-basis: auto;
 }
 

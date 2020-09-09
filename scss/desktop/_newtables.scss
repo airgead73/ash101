@@ -1,8 +1,15 @@
 /* NEW TABLES */
 
 .table_container {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
 	flex-direction: row;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
 	align-items: flex-start;
 	width: 95%;
 	margin-right: auto;
@@ -19,11 +26,13 @@ table {
 
 .tbl {
 	width: 75%;
+	-ms-flex-preferred-size: auto;
 	flex-basis: auto;
 }
 
 .tbl_name {
 	width: 25%;
+	-ms-flex-preferred-size: auto;
 	flex-basis: auto;
 	font-size: 16.2px;
 	color: #3b5038;

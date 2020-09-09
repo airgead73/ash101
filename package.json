@@ -17,14 +17,14 @@
     "sample:prefix": "postcss --use autoprefixer -b 'last 5 versions' scss/raw.css -o scss/prefix.css",
     "sample:compress": "node-sass scss/prefix.css sandbox/styles/style.css --output-style compressed",
     "sample:expanded": "node-sass scss/prefix.css sandbox/styles/style.css --output-style expanded",
-    "sample:build": "npm-run-all compile prefix expanded",
+    "sample:build": "npm-run-all sample:compile sample:prefix sample:expanded",
     "mobile:dev": "node-sass scss/mobile.scss sandbox/styles/mobile.css --output-style expanded",
     "mobile:watch": "node-sass scss/mobile.scss sandbox/styles/mobile.css --output-style expanded --watch",
     "mobile:compile": "node-sass scss/mobile.scss scss/raw.css",
     "mobile:prefix": "postcss --use autoprefixer -b 'last 5 versions' scss/raw.css -o scss/prefix.css",
     "mobile:compress": "node-sass scss/prefix.css sandbox/styles/mobile.css --output-style compressed",
     "mobile:expanded": "node-sass scss/prefix.css sandbox/styles/mobile.css --output-style expanded",
-    "mobile:build": "npm-run-all compile prefix expanded"
+    "mobile:build": "npm-run-all mobile:compile mobile:prefix mobile:expanded"
   },
   "prettier": {
     "tabWidth": 4,
@@ -60,6 +60,7 @@
     "postcss-cli": "^7.1.1"
   },
   "browswerslist": [
+    "last 5 versions",
     "Edge 15",
     "Edge 16",
     "IE 10",

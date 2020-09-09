@@ -15,6 +15,26 @@
     margin-left: 6%;
     margin-right: 6%;
   }
+  /* CHAPTER OPENER */
+  .co_header {
+    padding: 82px 6%;
+  }
+  .quote_text {
+    padding: 18px 4% 0px;
+  }
+  .co_intro {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .co_text {
+    width: 100%;
+  }
+  .co_aside {
+    width: 100%;
+    padding: 5% 10%;
+  }
   /* SECTIONS */
   .section-header {
     padding-left: 8%;
@@ -34,10 +54,13 @@
   }
   /* FIGURES */
   .figure {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
     width: 90%;
     margin-right: auto;
     margin-left: auto;
-    flex-direction: column;
   }
   .figure img {
     width: 100%;
@@ -49,6 +72,9 @@
   /* PHOTOS */
   .photo-landscape,
   .photo-portrait {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
     width: 90%;
     margin-right: auto;
@@ -59,7 +85,7 @@
     width: 100%;
   }
   .photo-landscape img {
-    width: 75%;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 10px;
@@ -72,6 +98,9 @@
   }
   /* TABLES */
   .table_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 90%;
     margin-right: auto;
