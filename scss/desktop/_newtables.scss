@@ -4,7 +4,9 @@
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
-	background-color: white;
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
 	margin-top: 60px;
 	margin-bottom: 60px;
 }
@@ -33,12 +35,11 @@ table {
 	position: relative;
 	font-weight: bold;
 	color: #3b5038;
-	font-size: 20.256px;
 }
 
 .tbl_number:before {
 	position: absolute;
-	top: 0.275em;
+	top: 0.225em;
 	left: -0.6em;
 	content: '';
 	display: block;
