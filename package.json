@@ -7,7 +7,7 @@
     "dev": "node-sass scss/styles.scss sandbox/style.css --output-style expanded",
     "watch": "node-sass scss/styles.scss sandbox/style.css --output-style expanded --watch",
     "compile": "node-sass scss/styles.scss scss/raw.css",
-    "prefix": "postcss --use autoprefixer -b 'last 5 versions' scss/raw.css -o scss/prefix.css",
+    "prefix": "postcss scss/raw.css -use autoprefixer --no-map -o scss/prefix.css",
     "compress": "node-sass scss/prefix.css sandbox/style.css --output-style compressed",
     "expanded": "node-sass scss/prefix.css sandbox/style.css --output-style expanded",
     "build": "npm-run-all compile prefix expanded"
@@ -34,11 +34,8 @@
     "postcss-cli": "^7.1.1"
   },
   "browserslist": [
-    "Edge 15",
-    "Edge 16",
     "IE 10",
     "IE 11",
-    "Chrome 80",
-    "Firefox 76"
+    "Edge 16"
   ]
 }
