@@ -23,8 +23,6 @@
     padding: 18px 4% 0px;
   }
   .co_intro {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
   }
@@ -54,8 +52,6 @@
   }
   /* FIGURES */
   .figure {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
     width: 90%;
@@ -72,8 +68,6 @@
   /* PHOTOS */
   .photo-landscape,
   .photo-portrait {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
     width: 90%;
@@ -98,8 +92,6 @@
   }
   /* TABLES */
   .table_container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
     width: 90%;
