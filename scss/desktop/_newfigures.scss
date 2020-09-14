@@ -1,17 +1,9 @@
 /* FIGURES */
 
 .figure {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
 	flex-direction: row;
-	-ms-flex-pack: distribute;
 	justify-content: space-around;
-	-webkit-box-align: start;
-	-ms-flex-align: start;
 	align-items: flex-start;
 	width: 98%;
 	margin-top: 32px;
@@ -22,12 +14,10 @@
 	padding-bottom: 40px;
 	& img {
 		width: 55%;
-		-ms-flex-preferred-size: auto;
 		flex-basis: auto;
 	}
 	& figcaption {
 		width: 40%;
-		-ms-flex-preferred-size: auto;
 		flex-basis: auto;
 		padding: 18px;
 		background: #fff;

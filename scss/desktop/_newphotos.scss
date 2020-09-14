@@ -2,18 +2,9 @@
 
 .photo-landscape,
 .photo-portrait {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
 	flex-direction: row;
-	-webkit-box-pack: space-evenly;
-	-ms-flex-pack: space-evenly;
 	justify-content: space-evenly;
-	-webkit-box-align: start;
-	-ms-flex-align: start;
 	align-items: flex-start;
 	width: 95%;
 	margin-top: 40px;
@@ -21,8 +12,6 @@
 	margin-right: auto;
 	margin-left: auto;
 	& img {
-		-webkit-box-ordinal-group: 3;
-		-ms-flex-order: 2;
 		order: 2;
 		border-radius: 4px;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
@@ -52,12 +41,10 @@
 .photo-landscape {
 	& img {
 		width: 50%;
-		-ms-flex-preferred-size: auto;
 		flex-basis: auto;
 	}
 	& figcaption {
 		width: 40%;
-		-ms-flex-preferred-size: auto;
 		flex-basis: auto;
 	}
 }
@@ -65,12 +52,10 @@
 .photo-portrait {
 	& img {
 		width: 40%;
-		-ms-flex-preferred-size: auto;
 		flex-basis: auto;
 	}
 	& figcaption {
 		width: 40%;
-		-ms-flex-preferred-size: auto;
 		flex-basis: auto;
 	}
 }
