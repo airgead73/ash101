@@ -19,7 +19,6 @@
 	}
 	& figcaption {
 		position: relative;
-		padding-right: 9px;
 	}
 	& p.caption {
 		font-size: 0.9em;
@@ -34,30 +33,30 @@
 	& p.cr {
 		position: absolute;
 		width: 200px;
-		right: 9px;
+		right: 0;
 		bottom: -8px;
 	}
 }
 
 .photo-landscape {
 	& img {
+		flex: 0 0 auto;
 		width: 50%;
-		flex-basis: auto;
 	}
 	& figcaption {
+		flex: 0 0 auto;
 		width: 45%;
-		flex-basis: auto;
 	}
 }
 
 .photo-portrait {
 	& img {
+		flex: 0 0 auto;
 		width: 40%;
-		flex-basis: auto;
 	}
 	& figcaption {
+		flex: 0 0 auto;
 		width: 45%;
-		flex-basis: auto;
 	}
 }
 
