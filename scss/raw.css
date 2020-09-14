@@ -815,11 +815,11 @@ li {
   padding-top: 40px;
   padding-bottom: 40px; }
   .figure img {
-    width: 55%;
-    flex-basis: auto; }
+    flex: 0 0 auto;
+    width: 55%; }
   .figure figcaption {
+    flex: 0 0 auto;
     width: 40%;
-    flex-basis: auto;
     padding: 18px;
     background: #fff;
     border-right: 1px solid #d1d1d1;
@@ -891,6 +891,7 @@ li {
     right: 0;
     bottom: -8px; }
 
+/* Photo Sizes */
 .photo-landscape img {
   flex: 0 0 auto;
   width: 50%; }
