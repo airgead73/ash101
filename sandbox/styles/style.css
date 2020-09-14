@@ -85,7 +85,7 @@ section.page {
   padding: 32px 0;
 }
 
-.section-body.bg-white {
+.section-body:nth-child(even) {
   background-color: #fefefe;
 }
 
@@ -155,8 +155,6 @@ section.page {
   left: 0;
   width: 100%;
   text-align: center;
-  -webkit-transform: translateY(-35%);
-  -ms-transform: translateY(-35%);
   transform: translateY(-35%);
   line-height: 1.25;
 }
@@ -444,6 +442,7 @@ h3,
 h4,
 h5 {
   font-weight: 300;
+  -ms-hyphens: none;
   hyphens: none;
 }
 
@@ -739,11 +738,8 @@ h2 .ct_title {
 }
 
 .co_intro {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
 }
@@ -936,16 +932,12 @@ li {
 
 /* FIGURES */
 .figure {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
   width: 98%;
@@ -1017,17 +1009,12 @@ li {
 /* PHOTOS */
 .photo-landscape,
 .photo-portrait {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
-  -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
   width: 95%;
@@ -1039,7 +1026,6 @@ li {
 
 .photo-landscape img,
 .photo-portrait img {
-  -webkit-box-ordinal-group: 3;
   -ms-flex-order: 2;
   order: 2;
   border-radius: 4px;
@@ -1106,14 +1092,10 @@ li {
 
 /* NEW TABLES */
 .table_container {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
   width: 95%;

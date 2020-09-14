@@ -73,7 +73,7 @@ section.page {
 
 .section-body {
   padding: 32px 0; }
-  .section-body.bg-white {
+  .section-body:nth-child(even) {
     background-color: #fefefe; }
 
 .right-column {
