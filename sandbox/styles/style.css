@@ -1035,7 +1035,6 @@ li {
 .photo-landscape figcaption,
 .photo-portrait figcaption {
   position: relative;
-  padding-right: 9px;
 }
 
 .photo-landscape p.caption,
@@ -1054,32 +1053,32 @@ li {
 .photo-portrait p.cr {
   position: absolute;
   width: 200px;
-  right: 9px;
+  right: 0;
   bottom: -8px;
 }
 
 .photo-landscape img {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
   width: 50%;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
 }
 
 .photo-landscape figcaption {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
   width: 45%;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
 }
 
 .photo-portrait img {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
   width: 40%;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
 }
 
 .photo-portrait figcaption {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
   width: 45%;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
 }
 
 .photo-cover {
