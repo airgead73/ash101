@@ -18,16 +18,17 @@ table {
 }
 
 .tbl {
+	flex: 0 0 auto;
 	width: 75%;
-	flex-basis: auto;
 }
 
 .tbl_name {
+	flex: 0 0 auto;
 	width: 25%;
-	flex-basis: auto;
 	font-size: 16.2px;
 	color: #3b5038;
 	text-align: right;
+	margin-top: 0;
 	padding-right: 15px;
 }
 
@@ -52,6 +53,7 @@ table {
 .tbl_title {
 	color: #2c3643;
 	font-size: 16px;
+	font-weight: 400;
 }
 
 .tbl_subtitle {
