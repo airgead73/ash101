@@ -19,19 +19,7 @@
   
   
   <manifest>
-    <item href="front_matter.html" id="cover" media-type="application/xhtml+xml" />
-    <item href="chapter_01.html" id="ch01" media-type="application/xhtml+xml" />
-    <item href="chapter_02.html" id="ch02" media-type="application/xhtml+xml" />
-    <item href="chapter_03.html" id="ch03" media-type="application/xhtml+xml" />
-    <item href="chapter_04.html" id="ch04" media-type="application/xhtml+xml" />
-    <item href="chapter_05.html" id="ch05" media-type="application/xhtml+xml" />
-    <item href="chapter_06.html" id="ch06" media-type="application/xhtml+xml" />
-    <item href="chapter_07.html" id="ch07" media-type="application/xhtml+xml" />
-    <item href="chapter_08.html" id="ch08" media-type="application/xhtml+xml" />
-    <item href="chapter_09.html" id="ch09" media-type="application/xhtml+xml" />
-    <item href="chapter_10.html" id="ch10" media-type="application/xhtml+xml" />
-    <item href="chapter_11.html" id="ch11" media-type="application/xhtml+xml" />
-    <item href="back_matter.html" id="bm" media-type="application/xhtml+xml" />
+    <item href="chapter_01.html" id="ch01" media-type="application/xhtml+xml" /> 
       
     <item href="fonts/robotoslab_bold.otf" id="roboto_bold" media-type="application/opentype"/>
     <item href="fonts/robotoslab_light.otf" id="roboto_light" media-type="application/opentype"/>
@@ -274,20 +262,7 @@
 
   </manifest>
   <spine toc="ncx">
-    <itemref idref="fm" />
-    <itemref idref="ch01" />
-    <itemref idref="ch02" />
-    <itemref idref="ch03" />
-    <itemref idref="ch04" />
-    <itemref idref="ch05" />
-    <itemref idref="ch06" />
-    <itemref idref="ch07" />
-    <itemref idref="ch08" />
-    <itemref idref="ch09" />
-    <itemref idref="ch10" />
-    <itemref idref="ch11" />
-    <itemref idref="bm" />
-	
+    <itemref idref="ch01" />	
   </spine>
 
 </package>
