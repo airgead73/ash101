@@ -104,4 +104,21 @@
   .tbl_name {
     width: 100%;
   }
+  /* VIDEO */
+  .figure-video {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+  }
+  .figure-video figcaption {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .figure-video iframe {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
