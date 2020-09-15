@@ -21,9 +21,6 @@
   <manifest>
     <item href="front_matter.html" id="cover" media-type="application/xhtml+xml" />
     <item href="chapter_01.html" id="ch01" media-type="application/xhtml+xml" />
-    <item href="chapter_02.html" id="ch02" media-type="application/xhtml+xml" />
-    <item href="chapter_03.html" id="ch03" media-type="application/xhtml+xml" />
-    <item href="chapter_04.html" id="ch04" media-type="application/xhtml+xml" />
     <item href="back_matter.html" id="bm" media-type="application/xhtml+xml" />
       
     <item href="fonts/robotoslab_bold.otf" id="roboto_bold" media-type="application/opentype"/>
