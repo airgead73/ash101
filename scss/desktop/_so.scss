@@ -4,37 +4,54 @@
 	padding: 22px 16% 22px;
 	margin-top: -12px;
 	border-top: 8px solid #ddd;
+	& h1 {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 75px;
+		padding-bottom: 0.25em;
+		font-family: 'RobotoRegular', sans-serif;
+	}
+	& .sec_title {
+		display: block;
+		font-size: 38px;
+		line-height: 1.2;
+		margin-top: 0;
+		padding: 12px 8px 15px 8px;
+	}
+	& .sec_number {
+		display: block;
+		flex: 0 0 auto;
+		width: 110px;
+		padding: 12px 8px 15px 8px;
+		margin-top: 0;
+		font-size: 32px;
+		font-weight: 800;
+		text-align: center;
+		background-color: #c92a56;
+		color: #fff;
+	}
 }
 
-.section-header h1 {
-	display: block;
-	background-image: url(../Images/section-number-bg.png);
-	background-repeat: repeat-y;
-	background-position: top left;
-	margin-bottom: 75px;
-	padding-bottom: 0.25em;
-	/*background: linear-gradient(90deg, #c92b56 110px, transparent 0%) !important;*/ /*commented*/
-}
-.section-header h1 .sec_title {
-	font-size: 38px !important;
-	font-family: 'RobotoRegular', sans-serif;
-	color: #484848;
-	line-height: 1.2 !important;
-}
-.section-header h1 .sec_number {
-	font-family: 'RobotoRegular', sans-serif;
-	display: block;
-	color: #fff;
-	padding: 12px 8px 15px 8px;
-	width: 110px; /*changed*/
-	float: left;
-	font-size: 32px !important;
-	font-weight: 800;
-	text-align: center;
-	margin-right: 12px;
-	/*margin-left: -5px;*/ /*added*/ /*commented*/
-	height: 210px; /*added*/
-}
+// .section-header h1 .sec_title {
+// 	font-size: 38px !important;
+// 	font-family: 'RobotoRegular', sans-serif;
+// 	color: #484848;
+// 	line-height: 1.2 !important;
+// }
+// .section-header h1 .sec_number {
+// 	font-family: 'RobotoRegular', sans-serif;
+// 	display: block;
+// 	color: #fff;
+// 	padding: 12px 8px 15px 8px;
+// 	width: 110px; /*changed*/
+// 	float: left;
+// 	font-size: 32px !important;
+// 	font-weight: 800;
+// 	text-align: center;
+// 	margin-right: 12px;
+// 	/*margin-left: -5px;*/ /*added*/ /*commented*/
+// 	height: 210px; /*added*/
+// }
 h2.focus {
 	position: relative;
 	background-color: #fff;

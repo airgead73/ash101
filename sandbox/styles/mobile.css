@@ -23,7 +23,6 @@
     padding: 18px 4% 0px;
   }
   .co_intro {
-    -ms-flex-direction: column;
     flex-direction: column;
     padding: 32px 8%;
   }
@@ -35,21 +34,13 @@
     padding: 5% 10%;
   }
   /* SECTIONS */
-  .section-header {
-    padding-left: 8%;
-    padding-right: 8%;
-  }
   .section-header h1 {
-    background: none;
     text-align: center;
+    flex-direction: column;
   }
   .section-header .sec_number {
-    float: none;
-    padding-bottom: 24px;
-    background: #c92b56;
-    margin: 0 auto;
-    height: 100px;
-    width: 160px;
+    margin-right: auto;
+    margin-left: auto;
   }
   .section-lead p {
     width: 90%;
@@ -65,7 +56,6 @@
   }
   /* FIGURES */
   .figure {
-    -ms-flex-direction: column;
     flex-direction: column;
     width: 90%;
     margin-right: auto;
@@ -81,7 +71,6 @@
   /* PHOTOS */
   .photo-landscape,
   .photo-portrait {
-    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
     width: 90%;
     margin-right: auto;
@@ -105,7 +94,6 @@
   }
   /* TABLES */
   .table_container {
-    -ms-flex-direction: column;
     flex-direction: column;
     width: 90%;
     margin-right: auto;
@@ -119,7 +107,6 @@
   }
   /* VIDEO */
   .figure-video {
-    -ms-flex-direction: column;
     flex-direction: column;
     width: 90%;
     margin-right: auto;

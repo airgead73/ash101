@@ -26,19 +26,16 @@
     width: 100%;
     padding: 5% 10%; }
   /* SECTIONS */
-  .section-header {
-    padding-left: 8%;
-    padding-right: 8%; }
-    .section-header h1 {
-      background: none;
-      text-align: center; }
-    .section-header .sec_number {
-      float: none;
-      padding-bottom: 24px;
-      background: #c92b56;
-      margin: 0 auto;
-      height: 100px;
-      width: 160px; }
+  .section-header h1 {
+    background: none;
+    text-align: center; }
+  .section-header .sec_number {
+    float: none;
+    padding-bottom: 24px;
+    background: #c92b56;
+    margin: 0 auto;
+    height: 100px;
+    width: 160px; }
   .section-lead p {
     width: 90%;
     max-width: none;
