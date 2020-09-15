@@ -1,40 +1,4 @@
 /* END OF CHAPTER */
-
-section#test1-12 .section-body {
-	background: #f9f9f9 none !important;
-}
-
-.chapter-review {
-	padding: 32px 8% 82px;
-	background: #f9f9f9;
-}
-
-div.chapter-review p.txt {
-	color: white;
-	line-height: 1.45em;
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
-div.chapter-review a {
-	color: white;
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
-div.chapter-review p.reveal {
-	color: white;
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
-section#test1-13 {
-	background: #191c23 !important;
-}
-
-#test1-13 h1 {
-	margin: 0px auto 32px;
-	padding: 0px 12%;
-	text-align: center;
-}
-
 .chapter-review-header {
 	background-color: #323847;
 	background-image: url(../Images/section-seperator5.png);
@@ -42,29 +6,27 @@ section#test1-13 {
 	background-position: bottom center;
 	color: #fff;
 	padding: 82px 0px 82px;
-}
-
-.chapter-review-header h1.eoc_h1 {
-	line-height: 1.2em;
-	color: #fff;
-	padding-left: 2%;
+	& h1.eoc_h1 {
+		line-height: 1.2em;
+		color: #fff;
+		padding-left: 2%;
+	}
 }
 
 .chapter-review {
-	background: #191c23 !important;
-	color: #fff !important;
-}
-
-.chapter-review h2 {
-	color: #fff !important;
-}
-
-.chapter-review h3 {
-	color: #fff !important;
-}
-
-#test1-13 p strong {
-	font-weight: bold;
+	padding: 32px 8% 82px;
+	background-color: #191c23;
+	color: #fff;
+	& h2,
+	h3,
+	p.reveal,
+	a {
+		color: #fff;
+	}
+	& p.txt {
+		color: #fff;
+		line-height: 1.45em;
+	}
 }
 
 ol.applied-questions li {
@@ -74,17 +36,5 @@ ol.applied-questions li {
 	border-bottom: 2px solid #3b404f;
 	padding-bottom: 8px;
 	margin-bottom: 28px;
-	color: white;
-}
-
-.applied-questions .li_text {
-	font-family: 'Lato', sans-serif;
-	color: #ffffff !important;
-}
-
-ol.min_top_margin,
-ul.minus_top_margin {
-	list-style-position: outside;
-	margin: 8px 8px 15px auto;
-	padding: 0 4%;
+	color: #fff;
 }
