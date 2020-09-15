@@ -18,7 +18,8 @@
   .quote_text {
     padding: 18px 4% 0px; }
   .co_intro {
-    flex-direction: column; }
+    flex-direction: column;
+    padding: 32px 8%; }
   .co_text {
     width: 100%; }
   .co_aside {
@@ -28,6 +29,16 @@
   .section-header {
     padding-left: 8%;
     padding-right: 8%; }
+    .section-header h1 {
+      background: none;
+      text-align: center; }
+    .section-header .sec_number {
+      float: none;
+      padding-bottom: 24px;
+      background: #c92b56;
+      margin: 0 auto;
+      height: 100px;
+      width: 160px; }
   .section-lead p {
     width: 90%;
     max-width: none;

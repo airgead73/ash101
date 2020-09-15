@@ -2,7 +2,20 @@
 .section-header {
 	padding-left: 8%;
 	padding-right: 8%;
+	& h1 {
+		background: none;
+		text-align: center;
+	}
+	& .sec_number {
+		float: none;
+		padding-bottom: 24px;
+		background: #c92b56;
+		margin: 0 auto;
+		height: 100px;
+		width: 160px;
+	}
 }
+
 .section-lead p {
 	width: 90%;
 	max-width: none;
