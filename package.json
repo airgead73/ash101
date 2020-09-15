@@ -62,6 +62,10 @@
   "browserslist": [
     "IE 10",
     "IE 11",
-    "Edge 16"
+    "Edge 16",
+    "last 3 Chrome versions",
+    "last 3 FireFox versions",
+    "last 3 iOS versions",
+    "last 3 Android versions"
   ]
 }
