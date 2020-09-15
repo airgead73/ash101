@@ -918,7 +918,7 @@ td li {
   line-height: 1.45em;
 }
 
-ol.applied-questions li {
+ol.applied-questions li.li_text {
   font-size: 16px;
   font-weight: normal;
   line-height: 1.4em;
