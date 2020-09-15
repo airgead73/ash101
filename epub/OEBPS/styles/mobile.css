@@ -1,240 +1,130 @@
 @media only screen and (max-width: 750px) {
-  
-
-.chapter-header {
-	padding: 82px 6%;	
-}
-	.co_intro {
-		width: 100%;
-		padding: 32px 8%;
-	}
-
-	.co_text   /*Newly added*/
-     {
-		width: 100%;
-		float: none;
-		padding-top: 95%;
-	}
-
-	.co_aside {
-		width: 100%;
-		float: none;
-		padding-top: 80%;
-	}
-	.quote_text {
-		padding: 18px 4% 0px; /*changed*/
-	}
-
-.section-header h1 {
-	background: none !important; 
- }
- 	.section-header h1 .sec_number {
-		float: none;
-		padding-bottom: 24px;
-		background: #c92b56;
-		margin: 0px auto;
-		height:100px;   
-		width: 160px;
-        /*added*/
-	}
-	.section-header h1 {
-	text-align:center;	
-	}
-	
-	
-.customCol-0 p, .customCol-0 ol, .customCol-0 ul {
-	width: 90%;	
-}
- 
- 
- .right-column {
-	width: 100%;
-	float:none;
-	display:block;
-	clear:both;
-	margin: 0px auto;
-	padding: 12px 12%;
-	
- }
- 
- .figure-1 img {
-	width: 100%;
-	margin: 12px auto;
- }
- .figure-1 figcaption {
-	float: none;
-	width: 90%;
-	margin: 12px auto;
- }
- 
- 
- .customCol-1 {
-	padding: 180px 32px 32px;
-	background: #C92B56 url('Images/bulb-icon.png') no-repeat center 24px;
-	text-align:center;
- }
- 
- 
- .photo-left, .photo-right, .photo-right img {
-	float: none;
-	margin: 0px auto;
-	width: 100%;
- }
-	
-	 .photo-right-small img {
-	float: none;
-	margin: 0px auto;
-	width: 100%;
- }
- 	.photo-right figcaption {
-		width: 100%;
-		margin: 12px 0px 24px;
-	}
- 
- 
- table.tbl-xl {
-  border-collapse: collapse;
-  margin: 0 auto 1em;
-  width: 75%;
-	 max-width: 100%;
-}
-
-
-	 table.tbl-xl .tbl_name {
-		max-width: 100%;
-		position:relative;
-		top: 0px;
-		left: 0px;
-		text-align: center;
-	 }
-
- 
- table.tbl-sm {
-  border-collapse: collapse;
-  margin: 0 auto 1em;
-  width: 75%;
-	 max-width: 100%;
-}
-
-
-	 table.tbl-sm .tbl_name {
-		max-width: 100%;
-		position:relative;
-		top: 0px;
-		left: 0px;
-		text-align: center;
-	 }	
-	
-	
-	table.tbl-new {
-  border-collapse: collapse;
-  margin: 0 auto 1em;
-  width: 75%;
-	 max-width: 100%;
-}
-
-
-	 table.tbl-new .tbl_name {
-		max-width: 100%;
-		position:relative;
-		top: 0px;
-		left: 0px;
-		text-align: center;
-	 }	
-	 
-[class^="article-custom-"] {
-	position: relative;
-	padding: 0px;
-}
-	[class^="article-custom-"] h2.h2, [class^="article-custom-"] h3.h3, [class^="article-custom-"] h4.h4 {
-		position: relative;
-		width: 100%;
-		display:block;
-		margin-bottom: 24px;
-	}
-		[class^="article-custom-"] .article-custom_title {
-			position: relative;
-		}
-/*Added newly for set into mobile view*/
-h1 .ct_number 
-{
-    font-size: 50px;
-}
-
-h2.focus {
-    padding: 32px 10px 64px;
-    word-wrap: break-word;
-}
-
-.section-header {
-    padding: 22px 10% 22px;
-    word-wrap: break-word;
-}
-
-.section-lead p, .section-lead ol, .section-lead ul 
-{
-    width: 95%;
-	word-wrap: break-word;
-}
-
-.single-column 
-{
-    padding: 0px 3%;
-	word-wrap: break-word;
-}
-
-.trigger-readmore_for_Figure 
-{
-    border: 0px solid #FFF;
-    margin-left: 0px; 
+  /* HEADERS */
+  h3.h3 {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  /* TEXT */
+  p.txt,
+  .key-point,
+  .section-lead p.intro {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  p.ext {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  /* CHAPTER OPENER */
+  .co_header {
+    padding: 82px 6%;
+  }
+  .quote_text {
+    padding: 18px 4% 0px;
+  }
+  .co_intro {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 32px 8%;
+  }
+  .co_text {
+    width: 100%;
+  }
+  .co_aside {
+    width: 100%;
+    padding: 5% 10%;
+  }
+  /* SECTIONS */
+  .section-header h1 {
+    text-align: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .section-header .sec_number {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .section-lead p {
     width: 90%;
-}
-
-/*.tbl_scroll_on_mobile
-{
-  overflow-x:auto;
-}*/
-
-h2.h2
-{
- word-wrap: break-word;
-}
-
-.table_nl {
-    margin-left: 0%;
-	}
-
-.eqi_tbl2
-  {
-    min-width:250px;
-    width:50%;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
   }
-    
-  div.video-FOD, div.video-right-FOD, div.video-center, div.video-right, div.video-left, div.video-center-large, div.video-right-large, div.fig-centerSL {
-	  float: none;
-	  width: 100%;
-	  margin: 1em 0;
+  /* LISTS */
+  ol,
+  ul {
+    padding-left: 8%;
+    padding-right: 8%;
   }
-
- p.sl-caption
-{
-                margin-top: 1em;
-                font-size: 16px;
-                font-weight: bold;
-                line-height: 1.2em;
-} 
-
-p.media{
-	
-	line-height: 1.2em;
-	font-size: 16px;
-	font-weight: normal;
-	font-style: italic;
-	margin-bottom: 0.6em;
-	text-align: left;
-	color: #000;
-	display: inline;
-
-}
-    
+  /* FIGURES */
+  .figure {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .figure img {
+    width: 100%;
+  }
+  .figure figcaption {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  /* PHOTOS */
+  .photo-landscape,
+  .photo-portrait {
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .photo-landscape figcaption,
+  .photo-portrait figcaption {
+    width: 100%;
+  }
+  .photo-landscape img {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+  .photo-portrait img {
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+  /* TABLES */
+  .table_container {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .tbl {
+    width: 100%;
+  }
+  .tbl_name {
+    width: 100%;
+  }
+  /* VIDEO */
+  .figure-video {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+  }
+  .figure-video figcaption {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .figure-video iframe {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
