@@ -42,78 +42,85 @@
                 </navPoint>
             </navPoint>
 
-            <navPoint id="sec1.0" playOrder="6">
+            <navPoint id="sec0.0" playOrder="6">
+                <navLabel>
+                    <text>Part I</text>
+                </navLabel>
+                <content src="chapter_01.html#sec0.0" />
+            </navPoint>
+
+            <navPoint id="sec1.0" playOrder="7">
                 <navLabel>
                     <text>Ch 1: Introduction to Learning and Assessment</text>
                 </navLabel>
                 <content src="chapter_01.html#sec1.0" />
-                <navPoint id="sec1.1" playOrder="7">
+                <navPoint id="sec1.1" playOrder="8">
                     <navLabel>
                         <text>1.1 Introduction</text>
                     </navLabel>
                     <content src="chapter_01.html#sec1.1" />
                 </navPoint>
-                <navPoint id="sec1.2" playOrder="8">
+                <navPoint id="sec1.2" playOrder="9">
                     <navLabel>
                         <text>1.2 Purposes and Types of Assessment</text>
                     </navLabel>
                     <content src="chapter_01.html#sec1.2" />
                 </navPoint>
-                <navPoint id="sec1.3" playOrder="9">
+                <navPoint id="sec1.3" playOrder="10">
                     <navLabel>
                         <text>1.3 The Curriculum Planning-Teaching-Assessing Cycle</text>
                     </navLabel>
                     <content src="chapter_01.html#sec1.3" />
                 </navPoint>
-                <navPoint id="sec1.4" playOrder="10">
+                <navPoint id="sec1.4" playOrder="11">
                     <navLabel>
                         <text>1.4 Educational Goals and Assessment</text>
                     </navLabel>
                     <content src="chapter_01.html#sec1.4" />
                 </navPoint>
-                <navPoint id="sec1.5" playOrder="11">
+                <navPoint id="sec1.5" playOrder="12">
                     <navLabel>
                         <text>1.5 The Implications of ESSA</text>
                     </navLabel>
                     <content src="chapter_01.html#sec1.5" />
                 </navPoint>
-                <navPoint id="sec1.6" playOrder="12">
+                <navPoint id="sec1.6" playOrder="13">
                     <navLabel>
                         <text>1.6 High-Stakes Testing</text>
                     </navLabel>
                     <content src="chapter_01.html#sec1.6" />
                 </navPoint>
-                <navPoint id="sec1.7" playOrder="13">
+                <navPoint id="sec1.7" playOrder="14">
                     <navLabel>
                         <text>1.7 The Implications of the IDEA</text>
                     </navLabel>
                     <content src="chapter_01.html#sec1.7" />
                 </navPoint>
-                <navPoint id="sec1.8" playOrder="14">
+                <navPoint id="sec1.8" playOrder="15">
                     <navLabel>
                         <text>1.8 Test Fairness and the Ethics of Assessment</text>
                     </navLabel>
                     <content src="chapter_01.html#sec1.8" />
                 </navPoint>
-                <navPoint id="sec1.9" playOrder="15">
+                <navPoint id="sec1.9" playOrder="16">
                     <navLabel>
                         <text>1.9 Student Rights and Responsibilities in Assessment</text>
                     </navLabel>
                     <content src="chapter_01.html#sec1.9" />
                 </navPoint>
-                <navPoint id="sec1.10" playOrder="16">
+                <navPoint id="sec1.10" playOrder="17">
                     <navLabel>
                         <text>1.10 Self-Assessment</text>
                     </navLabel>
                     <content src="chapter_01.html#sec1.10" />
                 </navPoint>
-                <navPoint id="sec1.11" playOrder="17">
+                <navPoint id="sec1.11" playOrder="18">
                     <navLabel>
                         <text>1.11 What Works in Education?</text>
                     </navLabel>
                     <content src="chapter_01.html#sec1.11" />
                 </navPoint>
-                <navPoint id="ch1_summary" playOrder="18">
+                <navPoint id="ch1_summary" playOrder="19">
                     <navLabel>
                         <text>Chapter 1 Themes and Questions</text>
                     </navLabel>
