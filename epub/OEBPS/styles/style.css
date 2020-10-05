@@ -530,7 +530,7 @@ h2.focus {
   color: #ffffff;
   margin: 0;
   padding: 15px 0;
-  width: 20%;
+  width: 110px;
 }
 
 .header_char {
@@ -556,6 +556,12 @@ h2.focus {
   margin: 0;
   padding: 0;
   width: 50%;
+}
+
+.part_title {
+  color: #c92b56;
+  font-family: 'Roboto Slab';
+  font-size: 1.5rem;
 }
 
 /* LISTS */
