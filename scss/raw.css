@@ -441,17 +441,17 @@ h2.focus {
 .parts_header {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: space-between;
   background-color: #333947;
   color: #ffffff;
   margin-bottom: 60px;
-  padding: 60px 16%; }
+  padding: 50px 16%; }
 
 .header_number {
   background-color: #c92a56;
   color: #ffffff;
   margin: 0;
-  padding: 0; }
+  padding: 20px 30px; }
 
 .header_char {
   display: block;
@@ -474,7 +474,8 @@ h2.focus {
   font-family: RobotoRegular;
   font-size: 48px;
   line-height: 58px;
-  border: 1px dotted white; }
+  width: 90%;
+  max-width: 525px; }
 
 .parts_list {
   margin: 0;
@@ -506,7 +507,7 @@ h2.focus {
     right: 0;
     width: 0;
     height: 0;
-    border-width: 0 64px 275px 0;
+    border-width: 0 39px 275px 0;
     border-color: transparent white transparent transparent;
     border-style: solid; }
 
@@ -519,7 +520,7 @@ h2.focus {
     left: 0;
     width: 0;
     height: 0;
-    border-width: 0 0 275px 64px;
+    border-width: 0 0 275px 39px;
     border-color: white transparent transparent white;
     border-style: solid; }
 
