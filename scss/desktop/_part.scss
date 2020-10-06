@@ -69,7 +69,7 @@
 	}
 }
 
-.part:nth-child(odd) {
+.part:nth-of-type(odd) {
 	flex-direction: row;
 	&:after {
 		content: '';
@@ -84,7 +84,7 @@
 	}
 }
 
-.part:nth-child(even) {
+.part:nth-of-type(even) {
 	flex-direction: row-reverse;
 	&:after {
 		content: '';

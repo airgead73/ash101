@@ -11,4 +11,7 @@ section.page {
 	&:nth-child(even) {
 		background-color: #fefefe;
 	}
+	&:nth-of-type(even) {
+		background-color: #fefefe;
+	}
 }
