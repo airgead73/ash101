@@ -84,19 +84,19 @@
   .part .part_text .part_title {
     text-align: center;
   }
-  .part:nth-child(odd) {
+  .part:nth-of-type(odd) {
     -ms-flex-direction: column;
     flex-direction: column;
   }
-  .part:nth-child(odd):after {
+  .part:nth-of-type(odd):after {
     border-width: 0;
     border-color: transparent transparent transparent transparent;
   }
-  .part:nth-child(even) {
+  .part:nth-of-type(even) {
     -ms-flex-direction: column;
     flex-direction: column;
   }
-  .part:nth-child(even):after {
+  .part:nth-of-type(even):after {
     border-width: 0 0 0 0;
     border-color: transparent transparent transparent transparent;
   }

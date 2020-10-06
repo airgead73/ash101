@@ -8,9 +8,6 @@ section.page {
 
 .section-body {
 	padding: 32px 0;
-	&:nth-child(even) {
-		background-color: #fefefe;
-	}
 	&:nth-of-type(even) {
 		background-color: #fefefe;
 	}

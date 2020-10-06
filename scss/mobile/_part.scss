@@ -35,7 +35,7 @@
 	}
 }
 
-.part:nth-child(odd) {
+.part:nth-of-type(odd) {
 	flex-direction: column;
 	&:after {
 		border-width: 0;
@@ -43,7 +43,7 @@
 	}
 }
 
-.part:nth-child(even) {
+.part:nth-of-type(even) {
 	flex-direction: column;
 	&:after {
 		border-width: 0 0 0 0;
