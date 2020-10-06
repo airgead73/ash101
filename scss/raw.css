@@ -39,83 +39,39 @@
     margin-right: auto; }
   /* PART */
   .parts_header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #333947;
-    color: #ffffff;
-    margin-bottom: 60px;
-    padding: 50px 16%; }
+    flex-direction: column;
+    padding: 25px 8%; }
   .header_number {
-    background-color: #c92a56;
-    color: #ffffff;
-    margin: 0;
-    padding: 20px 30px; }
-  .header_char {
-    display: block;
-    margin: 0;
-    font-size: 16px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif; }
-  .header_digit {
-    display: block;
-    margin: 0;
-    font-weight: 500;
-    font-size: 72px;
-    line-height: 52px;
-    text-align: center; }
+    margin-right: auto;
+    margin-left: auto;
+    width: 110px; }
   .header_title {
-    margin: 0;
-    font-weight: 700;
-    font-family: RobotoRegular;
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 38px;
+    line-height: 48px;
     width: 90%;
-    max-width: 525px; }
-  .parts_list {
-    margin: 0;
-    padding: 0; }
+    max-width: none;
+    text-align: center; }
   .part {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
-    background-color: #f1f1f1;
-    margin-top: 0;
-    margin-bottom: 60px;
-    padding: 20px 16%; }
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%; }
     .part .part_img {
-      flex: 0 0 auto;
-      width: 48%;
-      display: block; }
+      width: 100%; }
     .part .part_text {
-      flex: 0 0 auto;
-      width: 48%; }
+      width: 100%; }
+      .part .part_text .part_title {
+        text-align: center; }
   .part:nth-child(odd) {
-    flex-direction: row; }
+    flex-direction: column; }
     .part:nth-child(odd):after {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      left: 0;
-      width: 0;
-      height: 0;
-      border-width: 35px 250px 0 250px;
-      border-color: white transparent transparent transparent;
-      border-style: solid; }
+      border-width: 0;
+      border-color: transparent transparent transparent transparent; }
   .part:nth-child(even) {
-    flex-direction: row-reverse; }
+    flex-direction: column; }
     .part:nth-child(even):after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 0;
-      height: 0;
       border-width: 0 0 0 0;
-      border-color: transparent transparent transparent transparent;
-      border-style: solid; }
+      border-color: transparent transparent transparent transparent; }
   .part_title {
     color: #c92b56;
     font-family: RobotoBold;

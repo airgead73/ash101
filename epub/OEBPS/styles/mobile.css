@@ -23,6 +23,7 @@
     padding: 18px 4% 0px;
   }
   .co_intro {
+    -ms-flex-direction: column;
     flex-direction: column;
     padding: 32px 8%;
   }
@@ -36,6 +37,7 @@
   /* SECTIONS */
   .section-header h1 {
     text-align: center;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .section-header .sec_number {
@@ -50,6 +52,7 @@
   }
   /* PART */
   .parts_header {
+    -ms-flex-direction: column;
     flex-direction: column;
     padding: 25px 8%;
   }
@@ -66,6 +69,7 @@
     text-align: center;
   }
   .part {
+    -ms-flex-direction: column;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
@@ -81,6 +85,7 @@
     text-align: center;
   }
   .part:nth-child(odd) {
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .part:nth-child(odd):after {
@@ -88,6 +93,7 @@
     border-color: transparent transparent transparent transparent;
   }
   .part:nth-child(even) {
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .part:nth-child(even):after {
@@ -107,6 +113,7 @@
   }
   /* FIGURES */
   .figure {
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 90%;
     margin-right: auto;
@@ -122,6 +129,7 @@
   /* PHOTOS */
   .photo-landscape,
   .photo-portrait {
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
     width: 90%;
     margin-right: auto;
@@ -145,6 +153,7 @@
   }
   /* TABLES */
   .table_container {
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 90%;
     margin-right: auto;
@@ -158,6 +167,7 @@
   }
   /* VIDEO */
   .figure-video {
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 90%;
     margin-right: auto;
