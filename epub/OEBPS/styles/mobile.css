@@ -23,7 +23,6 @@
     padding: 18px 4% 0px;
   }
   .co_intro {
-    -ms-flex-direction: column;
     flex-direction: column;
     padding: 32px 8%;
   }
@@ -37,7 +36,6 @@
   /* SECTIONS */
   .section-header h1 {
     text-align: center;
-    -ms-flex-direction: column;
     flex-direction: column;
   }
   .section-header .sec_number {
@@ -50,6 +48,57 @@
     margin-left: auto;
     margin-right: auto;
   }
+  /* PART */
+  .parts_header {
+    flex-direction: column;
+    padding: 25px 8%;
+  }
+  .header_number {
+    margin-right: auto;
+    margin-left: auto;
+    width: 110px;
+  }
+  .header_title {
+    font-size: 38px;
+    line-height: 48px;
+    width: 90%;
+    max-width: none;
+    text-align: center;
+  }
+  .part {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+  }
+  .part .part_img {
+    width: 100%;
+  }
+  .part .part_text {
+    width: 100%;
+  }
+  .part .part_text .part_title {
+    text-align: center;
+  }
+  .part:nth-child(odd) {
+    flex-direction: column;
+  }
+  .part:nth-child(odd):after {
+    border-width: 0;
+    border-color: transparent transparent transparent transparent;
+  }
+  .part:nth-child(even) {
+    flex-direction: column;
+  }
+  .part:nth-child(even):after {
+    border-width: 0 0 0 0;
+    border-color: transparent transparent transparent transparent;
+  }
+  .part_title {
+    color: #c92b56;
+    font-family: RobotoBold;
+    font-size: 1.5rem;
+  }
   /* LISTS */
   ol,
   ul {
@@ -58,7 +107,6 @@
   }
   /* FIGURES */
   .figure {
-    -ms-flex-direction: column;
     flex-direction: column;
     width: 90%;
     margin-right: auto;
@@ -74,7 +122,6 @@
   /* PHOTOS */
   .photo-landscape,
   .photo-portrait {
-    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
     width: 90%;
     margin-right: auto;
@@ -98,7 +145,6 @@
   }
   /* TABLES */
   .table_container {
-    -ms-flex-direction: column;
     flex-direction: column;
     width: 90%;
     margin-right: auto;
@@ -112,7 +158,6 @@
   }
   /* VIDEO */
   .figure-video {
-    -ms-flex-direction: column;
     flex-direction: column;
     width: 90%;
     margin-right: auto;
