@@ -13,3 +13,9 @@
 		margin-bottom: 40px;
 	}
 }
+
+.figure-fullwidth {
+	& figcaption {
+		width: 100%;
+	}
+}
