@@ -776,6 +776,24 @@ li {
   color: #2c3643;
 }
 
+.btn_download {
+  display: inline-block;
+  font-family: 'Source Sans Pro', sans-serif;
+  border: 2px solid #ffffff;
+  text-decoration: none;
+  background-color: #c92b56;
+  color: #ffffff;
+  padding: 12px 12px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.btn_download:hover {
+  background-color: #ffffff;
+  color: #c92b56;
+  border-color: #c92b56;
+}
+
 /* PHOTOS */
 .photo-landscape,
 .photo-portrait {
