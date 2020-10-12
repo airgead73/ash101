@@ -61,6 +61,19 @@
 	}
 }
 
+.figure-fullwidth {
+	flex-direction: column;
+	& img {
+		width: 100%;
+	}
+	& figcaption {
+		width: 65%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+	}
+}
+
 .btn_download {
 	display: inline-block;
 	font-family: 'Source Sans Pro', sans-serif;

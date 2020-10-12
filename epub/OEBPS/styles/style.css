@@ -776,6 +776,22 @@ li {
   color: #2c3643;
 }
 
+.figure-fullwidth {
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.figure-fullwidth img {
+  width: 100%;
+}
+
+.figure-fullwidth figcaption {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
 .btn_download {
   display: inline-block;
   font-family: 'Source Sans Pro', sans-serif;

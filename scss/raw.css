@@ -628,6 +628,16 @@ li {
   .figure .figure_title {
     color: #2c3643; }
 
+.figure-fullwidth {
+  flex-direction: column; }
+  .figure-fullwidth img {
+    width: 100%; }
+  .figure-fullwidth figcaption {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px; }
+
 .btn_download {
   display: inline-block;
   font-family: 'Source Sans Pro', sans-serif;

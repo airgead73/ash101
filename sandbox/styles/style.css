@@ -776,6 +776,14 @@ li {
   color: #2c3643;
 }
 
+.figure-fullwidth img {
+  width: 100%;
+}
+
+.figure-fullwidth figcaption {
+  width: 100%;
+}
+
 .btn_download {
   display: inline-block;
   font-family: 'Source Sans Pro', sans-serif;
