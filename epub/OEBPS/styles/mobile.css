@@ -154,6 +154,13 @@
     margin-left: auto;
     margin-bottom: 10px;
   }
+  /* AUTHOR PHOTOS */
+  .photo-author {
+    width: 85%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
   /* TABLES */
   .table_container {
     -ms-flex-direction: column;
