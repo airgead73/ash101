@@ -1,7 +1,6 @@
-/* ASIDE - NOV 24 2020 */
 .aside {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 	width: 100%;
 	border-left: 6px solid #c92a56;
@@ -20,30 +19,17 @@
 	margin-top: 0;
 	margin-bottom: 0;
 	flex: 0 0 auto;
-	width: 100%;
+	width: 45%;
 	text-align: center;
-	padding: {
-		top: 25px;
-		bottom: 25px;
-		left: 6%;
-		right: 6%;
-	}
+	padding: 0 6%;
 	font-size: 24px;
 	color: #ffffff;
 }
 
 .aside_content {
 	flex: 0 0 auto;
-	width: 100%;
-	padding: {
-		top: 30px;
-		bottom: 30px;
-		left: $mainColumn;
-		right: $mainColumn;
-	}
-	& .tbl {
-		width: 100%;
-	}
+	width: 55%;
+	padding: 30px;
 	color: #ffffff;
 	.color-1 & {
 		background-color: #232b36;
