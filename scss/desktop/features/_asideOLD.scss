@@ -1,7 +1,6 @@
+/* ASIDE - NOV 25 2020 */
 .aside {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+	display: block;
 	width: 100%;
 	border-left: 6px solid #c92a56;
 	&.color-1 {
@@ -16,20 +15,27 @@
 }
 
 .aside_title {
-	margin-top: 0;
-	margin-bottom: 0;
-	flex: 0 0 auto;
-	width: 45%;
+	margin: 0 $mainColumn;
+	padding-top: 30px;
+	padding-bottom: 15px;
 	text-align: center;
-	padding: 0 6%;
 	font-size: 24px;
 	color: #ffffff;
+	.color-1 & {
+		background-color: #232b36;
+	}
+	.color-2 & {
+		background-color: #4f2438;
+	}
+	.color-3 & {
+		background-color: #464646;
+	}
 }
 
 .aside_content {
-	flex: 0 0 auto;
-	width: 55%;
-	padding: 30px;
+	margin-right: $mainColumn;
+	margin-left: $mainColumn;
+	padding: 15px 30px;
 	color: #ffffff;
 	.color-1 & {
 		background-color: #232b36;
@@ -45,5 +51,16 @@
 		margin-right: 0;
 		padding: 0;
 		color: #ffffff;
+	}
+	& ol,
+	ul {
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+	& li {
+		color: #ffffff;
+	}
+	& .tbl {
+		width: 100%;
 	}
 }

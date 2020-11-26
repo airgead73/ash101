@@ -1,16 +1,25 @@
-/* ASIDE */
+/* ASIDE NOV 25 2020 */
 
 .aside {
-	flex-direction: column;
-	width: 90%;
+	width: 100;
 	margin-right: auto;
 	margin-left: auto;
 }
 
 .aside_title {
+	margin-right: 5px;
+	margin-left: 5px;
 	width: 100%;
 }
 
 .aside_content {
+	margin-right: 5px;
+	margin-left: 5px;
 	width: 100%;
+	& .table_container {
+		overflow-x: scroll;
+	}
+	& .tbl {
+		width: auto;
+	}
 }

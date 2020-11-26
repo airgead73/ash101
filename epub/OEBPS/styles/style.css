@@ -1108,10 +1108,9 @@ p.reference {
   color: #000;
 }
 
+/* ASIDE - NOV 25 2020 */
 .aside {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  display: block;
   width: 100%;
   border-left: 6px solid #c92a56;
 }
@@ -1129,33 +1128,31 @@ p.reference {
 }
 
 .aside_title {
-  margin-top: 30px;
-  margin-bottom: 0;
-  padding-left: 5px;
-  padding-right: 10px;
-  flex: 0 0 auto;
-  width: 16%;
-  text-align: right;
-  font-size: 20px;
+  margin: 0 16%;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 24px;
   color: #ffffff;
 }
 
-.aside_subtitle {
-  margin-top: 30px;
+.color-1 .aside_title {
+  background-color: #232b36;
+}
+
+.color-2 .aside_title {
+  background-color: #4f2438;
+}
+
+.color-3 .aside_title {
+  background-color: #464646;
 }
 
 .aside_content {
-  flex: 0 0 auto;
-  width: 84%;
+  margin-right: 16%;
+  margin-left: 16%;
+  padding: 15px 30px;
   color: #ffffff;
-  padding-top: 0;
-  padding-left: 30px;
-  padding-right: 16%;
-  padding-bottom: 30px;
-}
-
-.aside_content .tbl {
-  width: 100%;
 }
 
 .color-1 .aside_content {
@@ -1185,6 +1182,10 @@ p.reference {
 
 .aside_content li {
   color: #ffffff;
+}
+
+.aside_content .tbl {
+  width: 100%;
 }
 
 /* EXPAND COLLAPSE */
