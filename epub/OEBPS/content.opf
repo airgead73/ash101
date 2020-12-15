@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="dcidid" version="2.0">
+
+   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:opf="http://www.idpf.org/2007/opf">	
+	<dc:title>ASH101</dc:title>
+	<dc:language xsi:type="dcterms:RFC3066">en</dc:language>
+	<meta name="cover" content="cover"/>
+	<dc:identifier id="dcidid">College &amp; Career Success: Developing Skills &amp; Strategies</dc:identifier>
+	<dc:subject>College &amp; Career Success: Developing Skills &amp; Strategies</dc:subject>
+	<dc:creator>Ann Pearson, Sabrina Mathues, and Guy Lefrançois</dc:creator>
+	<dc:publisher>Bridgepoint Education Inc.</dc:publisher>
+	<dc:date xsi:type="dcterms:W3CDTF">2020-12-03</dc:date>
+	<dc:rights>Copyright © 2021 Zovio Inc, all rights reserved</dc:rights>
+   </metadata>
+  
+  
+  <manifest>
+    <item href="front_matter.html" id="fm" media-type="application/xhtml+xml" />
+    <item href="chapter_01.html" id="ch01" media-type="application/xhtml+xml" />
+    <item href="chapter_02.html" id="ch02" media-type="application/xhtml+xml" />
+    <item href="chapter_03.html" id="ch03" media-type="application/xhtml+xml" />
+    <item href="chapter_04.html" id="ch04" media-type="application/xhtml+xml" />
+    <item href="chapter_05.html" id="ch05" media-type="application/xhtml+xml" />
+    <item href="chapter_06.html" id="ch06" media-type="application/xhtml+xml" />
+    <item href="chapter_07.html" id="ch07" media-type="application/xhtml+xml" />
+    <item href="chapter_08.html" id="ch08" media-type="application/xhtml+xml" />
+    <item href="chapter_09.html" id="ch09" media-type="application/xhtml+xml" />
+    <item href="chapter_10.html" id="ch10" media-type="application/xhtml+xml" />
+    <item href="chapter_11.html" id="ch11" media-type="application/xhtml+xml" />
+    <item href="chapter_12.html" id="ch12" media-type="application/xhtml+xml" />
+    <item href="chapter_13.html" id="ch13" media-type="application/xhtml+xml" />
+    <item href="chapter_14.html" id="ch14" media-type="application/xhtml+xml" />
+    <item href="Appendix_A.html" id="appendixa" media-type="application/xhtml+xml" />
+    <item href="Appendix_B.html" id="appendixb" media-type="application/xhtml+xml" />
+    <item href="Appendix_C.html" id="appendixc" media-type="application/xhtml+xml" />
+    <item href="Appendix_D.html" id="appendixd" media-type="application/xhtml+xml" />
+    <item href="back_matter.html" id="bm" media-type="application/xhtml+xml" />
+ 	     
+    <item href="fonts/robotoslab_bold.otf" id="roboto_bold" media-type="application/opentype"/>
+    <item href="fonts/robotoslab_light.otf" id="roboto_light" media-type="application/opentype"/>
+    <item href="fonts/robotoslab_regular.otf" id="roboto_regular" media-type="application/opentype"/> 
+    <item href="fonts/robotoslab_thin.otf" id="roboto_thin" media-type="application/opentype"/>  
+	
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+	<item href="styles/mobile.css" id="xmobile.css" media-type="text/css" />   
+    <item href="styles/style.css" id="xstyle.css" media-type="text/css" />
+    <item href="scripts/app-min.js" id="app-min.js" media-type="text/javascript" />
+	
+	<item href="images/ASH101_cover.jpg" id="ximgcover.jpg" media-type="image/jpeg" />
+	<item href="images/Lefrancois-au-photo.jpg" id="ximgLefrancois_au_photo.jpg" media-type="image/jpeg" />
+	<item href="images/Mathues-au-photo.jpg" id="ximgMathues_au_photo.jpg" media-type="image/jpeg" />
+	
+	<item href="images/1.0.jpg" id="ximg1.0.jpg" media-type="image/jpeg" />
+	<item href="images/1.0_chopener.jpg" id="ximg1.0_chopener.jpg" media-type="image/jpeg" />
+	<item href="images/1.1.jpg" id="ximg1.1.jpg" media-type="image/jpeg" />
+	<item href="images/1.2.jpg" id="ximg1.2.jpg" media-type="image/jpeg" />
+
+	<item href="images/2.0.jpg" id="ximg2.0.jpg" media-type="image/jpeg" />
+	<item href="images/2.0_chopener.jpg" id="ximg2.0_chopener.jpg" media-type="image/jpeg" />
+	<item href="images/2.1.jpg" id="ximg2.1.jpg" media-type="image/jpeg" />
+	<item href="images/2.2.jpg" id="ximg2.2.jpg" media-type="image/jpeg" />
+	<item href="images/2.3.jpg" id="ximg2.3.jpg" media-type="image/jpeg" />
+
+	<item href="images/3.0.jpg" id="ximg3.0.jpg" media-type="image/jpeg" />
+	<item href="images/3.0_chopener.jpg" id="ximg3.0_chopener.jpg" media-type="image/jpeg" />
+	<item href="images/3.1.jpg" id="ximg3.1.jpg" media-type="image/jpeg" />
+	<item href="images/3.2.jpg" id="ximg3.2.jpg" media-type="image/jpeg" />
+
+	<item href="images/4.0.jpg" id="ximg4.0.jpg" media-type="image/jpeg" />
+	<item href="images/4.0_chopener.jpg" id="ximg4.0_chopener.jpg" media-type="image/jpeg" />
+	<item href="images/4.1.jpg" id="ximg4.1.jpg" media-type="image/jpeg" />
+
+	<item href="images/5.0.jpg" id="ximg5.0.jpg" media-type="image/jpeg" />
+	<item href="images/5.0_chopener.jpg" id="ximg5.0_chopener.jpg" media-type="image/jpeg" />
+	<item href="images/5.1.jpg" id="ximg5.1.jpg" media-type="image/jpeg" />
+	<item href="images/5.2.jpg" id="ximg5.2.jpg" media-type="image/jpeg" />
+	
+	<item href="images/6.0.jpg" id="ximg6.0.jpg" media-type="image/jpeg" />
+	<item href="images/6.0_chopener.jpg" id="ximg6.0_chopener.jpg" media-type="image/jpeg" />
+	<item href="images/6.1.jpg" id="ximg6.1.jpg" media-type="image/jpeg" />
+
+	<item href="images/7.0.jpg" id="ximg7.0.jpg" media-type="image/jpeg" />
+	<item href="images/7.0_chopener.jpg" id="ximg7.0_chopener.jpg" media-type="image/jpeg" />
+	<item href="images/7.1.jpg" id="ximg7.1.jpg" media-type="image/jpeg" />
+	<item href="images/7.2.jpg" id="ximg7.2.jpg" media-type="image/jpeg" />
+
+	<item href="images/8.0.jpg" id="ximg8.0.jpg" media-type="image/jpeg" />
+	<item href="images/8.0_chopener.jpg" id="ximg8.0_chopener.jpg" media-type="image/jpeg" />
+	<item href="images/8.1.jpg" id="ximg8.1.jpg" media-type="image/jpeg" />
+
+	<item href="images/9.0.jpg" id="ximg9.0.jpg" media-type="image/jpeg" />
+	<item href="images/9.0_chopener.jpg" id="ximg9.0_chopener.jpg" media-type="image/jpeg" />
+	<item href="images/9.1.jpg" id="ximg9.1.jpg" media-type="image/jpeg" />
+
+	<item href="images/10.0.jpg" id="ximg10.0.jpg" media-type="image/jpeg" />
+	<item href="images/10.0_chopener.jpg" id="ximg10.0_chopener.jpg" media-type="image/jpeg" />
+
+	<item href="images/11.0.jpg" id="ximg11.0.jpg" media-type="image/jpeg" />
+	<item href="images/11.0_chopener.jpg" id="ximg11.0_chopener.jpg" media-type="image/jpeg" />
+	<item href="images/11.1.jpg" id="ximg11.1.jpg" media-type="image/jpeg" />
+
+	<item href="images/12.0.jpg" id="ximg12.0.jpg" media-type="image/jpeg" />
+	<item href="images/12.0_chopener.jpg" id="ximg12.0_chopener.jpg" media-type="image/jpeg" />
+	<item href="images/12.1.jpg" id="ximg12.1.jpg" media-type="image/jpeg" />
+	<item href="images/12.2.jpg" id="ximg12.2.jpg" media-type="image/jpeg" />
+	
+	
+	<item href="images/13.0.jpg" id="ximg13.0.jpg" media-type="image/jpeg" />
+	<item href="images/13.0_chopener.jpg" id="ximg13.0_chopener.jpg" media-type="image/jpeg" />
+	<item href="images/13.1.jpg" id="ximg13.1.jpg" media-type="image/jpeg" />
+	<item href="images/13.2.jpg" id="ximg13.2.jpg" media-type="image/jpeg" />
+	
+
+	<item href="images/14.0.jpg" id="ximg14.0.jpg" media-type="image/jpeg" />
+	<item href="images/14.0_chopener.jpg" id="ximg14.0_chopener.jpg" media-type="image/jpeg" />
+	<item href="images/14.1.jpg" id="ximg14.1.jpg" media-type="image/jpeg" />
+	<item href="images/14.2.jpg" id="ximg14.2.jpg" media-type="image/jpeg" />
+
+	<item href="images/UN2.1.jpg" id="ximgUN2.1.jpg" media-type="image/jpeg" />
+	<item href="images/UN2.2.jpg" id="ximgUN2.2.jpg" media-type="image/jpeg" />
+	<item href="images/UN2.3.jpg" id="ximgUN2.3.jpg" media-type="image/jpeg" />
+	<item href="images/UN2.4.jpg" id="ximgUN2.4.jpg" media-type="image/jpeg" />
+	
+	
+	<item href="images/RC_Ch01_Intro.jpg" id="RC_Ch01_Intro.jpg" media-type="image/jpeg" />
+	<item href="images/RC_Ch07_Feedback.jpg" id="RC_Ch07_Feedback.jpg" media-type="image/jpeg" />
+	<item href="images/RC_Ch08_Assignments.jpg" id="RC_Ch08_Assignments.jpg" media-type="image/jpeg" />
+	<item href="images/RC_Ch10_ActiveReading.jpg" id="RC_Ch10_ActiveReading.jpg" media-type="image/jpeg" />
+		<item href="images/RC_Ch12_Highlighting.jpg" id="RC_Ch12_Highlighting.jpg" media-type="image/jpeg" />
+	<item href="images/RC_Ch14_Career_Services.jpg" id="RC_Ch14_Career_Services.jpg" media-type="image/jpeg" />
+	<item href="images/RC_Ch14_LastChapter.jpg" id="RC_Ch14_LastChapter.jpg" media-type="image/jpeg" />
+
+
+    <item id="constellation.jpg" href="images/constellation.jpg" media-type="image/jpeg"/>
+    <item id="Vector_Devices.jpg" href="images/Vector_Devices.jpg" media-type="image/jpeg"/>
+    
+    
+	
+	<item href="figures/fig2.1.jpg" id="fig2.1.jpg" media-type="image/jpeg" />
+	<item href="figures/fig2.2.jpg" id="fig2.2.jpg" media-type="image/jpeg" />
+	<item href="figures/fig2.3.jpg" id="fig2.3.jpg" media-type="image/jpeg" />
+	<item href="figures/fig2.4.jpg" id="fig2.4.jpg" media-type="image/jpeg" />
+	<item href="figures/fig2.5.jpg" id="fig2.5.jpg" media-type="image/jpeg" />
+	
+	<item href="figures/fig3.1.jpg" id="fig3.1.jpg" media-type="image/jpeg" />
+	
+	<item href="figures/fig4.1.jpg" id="fig4.1.jpg" media-type="image/jpeg" />
+	<item href="figures/fig4.2.jpg" id="fig4.2.jpg" media-type="image/jpeg" />
+	<item href="figures/fig4.3.jpg" id="fig4.3.jpg" media-type="image/jpeg" />
+	<item href="figures/fig4.4.jpg" id="fig4.4.jpg" media-type="image/jpeg" />
+
+	<item href="figures/fig5.1.jpg" id="fig5.1.jpg" media-type="image/jpeg" />
+
+	<item href="figures/fig7.1.jpg" id="fig7.1.jpg" media-type="image/jpeg" />
+	<item href="figures/fig7.2.jpg" id="fig7.2.jpg" media-type="image/jpeg" />
+	<item href="figures/fig7.3.jpg" id="fig7.3.jpg" media-type="image/jpeg" />
+	<item href="figures/fig7.4.jpg" id="fig7.4.jpg" media-type="image/jpeg" />
+
+	<item href="figures/fig8.1.jpg" id="fig8.1.jpg" media-type="image/jpeg" />
+	<item href="figures/fig8.2.jpg" id="fig8.2.jpg" media-type="image/jpeg" />
+	<item href="figures/fig8.3.jpg" id="fig8.3.jpg" media-type="image/jpeg" />
+	<item href="figures/fig8.4.jpg" id="fig8.4.jpg" media-type="image/jpeg" />
+
+	<item href="figures/fig9.1.jpg" id="fig9.1.jpg" media-type="image/jpeg" />
+	<item href="figures/fig9.2.jpg" id="fig9.2.jpg" media-type="image/jpeg" />
+	<item href="figures/fig9.3.jpg" id="fig9.3.jpg" media-type="image/jpeg" />
+	<item href="figures/fig9.4.jpg" id="fig9.4.jpg" media-type="image/jpeg" />
+	<item href="figures/fig9.5.jpg" id="fig9.5.jpg" media-type="image/jpeg" />
+	
+	<item href="figures/fig10.1.jpg" id="fig10.1.jpg" media-type="image/jpeg" />
+	<item href="figures/fig10.2.jpg" id="fig10.2.jpg" media-type="image/jpeg" />
+	<item href="figures/fig10.3.jpg" id="fig10.3.jpg" media-type="image/jpeg" />
+
+	<item href="figures/fig13.1.jpg" id="fig13.1.jpg" media-type="image/jpeg" />
+	<item href="figures/fig13.2.jpg" id="fig13.2.jpg" media-type="image/jpeg" />
+
+	<item href="figures/fig14.1.jpg" id="fig14.1.jpg" media-type="image/jpeg" />
+
+	
+	
+	<item href="images/section-seperator.png" id="xsection-seperator.png" media-type="image/png" />
+	<item href="images/section-seperator1.png" id="xsection-seperator1.png" media-type="image/png" />
+	<item href="images/section-seperator2.png" id="xsection-seperator2.png" media-type="image/png" />
+	<item href="images/section-seperator3.png" id="xsection-seperator3.png" media-type="image/png" />
+	<item href="images/section-seperator4.png" id="xsection-seperator4.png" media-type="image/png" />
+	<item href="images/section-seperator5.png" id="xsection-seperator5.png" media-type="image/png" />      
+    
+
+	
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="fm" />
+    <itemref idref="ch01" />
+    <itemref idref="ch02" />
+    <itemref idref="ch03" />
+    <itemref idref="ch04" />
+    <itemref idref="ch05" />
+    <itemref idref="ch06" />
+    <itemref idref="ch07" />
+    <itemref idref="ch08" />
+    <itemref idref="ch09" />
+    <itemref idref="ch10" />
+    <itemref idref="ch11" />
+    <itemref idref="ch12" />
+    <itemref idref="ch13" />
+    <itemref idref="ch14" />
+    <itemref idref="appendixa" />
+    <itemref idref="appendixb" />
+    <itemref idref="appendixc" />
+    <itemref idref="appendixd" />
+    <itemref idref="bm" />
+   </spine>
+
+</package>
+
