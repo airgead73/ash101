@@ -1,0 +1,1621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+
+    <head>
+            <meta content="urn:uuid:7536EB79-979A-473F-A5EE-83C9B4F09516" name="dtb:uid" />
+            <meta content="2" name="dtb:depth" />
+            <meta content="0" name="dtb:totalPageCount" />
+            <meta content="0" name="dtb:maxPageNumber" />
+    </head>
+    <docTitle>
+            <text>ASH</text>
+    </docTitle>
+	
+    <navMap>
+		<navPoint id="cover" playOrder="1">
+			<navLabel>
+				<text>Cover and Front Matter</text>
+			</navLabel>
+			<content src="front_matter.html#cover"/>
+
+			<navPoint id="copyright" playOrder="2">
+				<navLabel>
+				<text>Copyright</text>
+				</navLabel>
+				<content src="front_matter.html#copyright"/>
+			</navPoint>
+
+			<navPoint id="aboutauthors" playOrder="3">
+				<navLabel>
+				<text>About the Authors</text>
+				</navLabel>
+				<content src="front_matter.html#aboutauthors"/>
+			</navPoint>
+
+			<navPoint id="acknowledgments" playOrder="4">
+				<navLabel>
+				<text>Acknowledgments</text>
+				</navLabel>
+				<content src="front_matter.html#acknowledgments"/>
+			</navPoint>
+			
+			<navPoint id="preface" playOrder="5">
+				<navLabel>
+				<text>Preface</text>
+				</navLabel>
+				<content src="front_matter.html#preface"/>
+			</navPoint>
+
+		</navPoint>
+			
+        <navPoint id="sec0.1" playOrder="6">
+            <navLabel>
+                <text>Part I: Planning for Success in College</text>
+            </navLabel>
+            <content src="chapter_01.html#sec0.1" />				
+        </navPoint>
+
+        <navPoint id="sec1.0" playOrder="7">
+            <navLabel>
+                    <text>Ch 1: Developing a Plan for Success</text>
+            </navLabel>
+            <content src="chapter_01.html#sec1.0" />
+            <navPoint id="sec1.1" playOrder="8">
+                <navLabel>
+                     <text>1.1 Identifying Your Values and Priorities</text>
+                </navLabel>
+                <content src="chapter_01.html#sec1.1" />
+            </navPoint>
+            <navPoint id="sec1.2" playOrder="9">
+                <navLabel>
+                    <text>1.2 Setting Goals</text>
+                </navLabel>
+				<content src="chapter_01.html#sec1.2" />
+            </navPoint>
+            <navPoint id="sec1.3" playOrder="10">
+                <navLabel>
+                    <text>1.3 Achieving Your Goals</text>
+                </navLabel>
+                <content src="chapter_01.html#sec1.3" />
+            </navPoint>
+                
+            <navPoint id="ch1_summary" playOrder="11">
+                <navLabel>
+                    <text>Summary</text>
+                </navLabel>
+                <content src="chapter_01.html#ch1_summary" />
+            </navPoint>
+		</navPoint>    
+				
+        <navPoint id="sec2.0" playOrder="12">
+            <navLabel>
+                    <text>Ch 2: Managing Your Energy and Time</text>
+            </navLabel>
+            <content src="chapter_02.html#sec2.0" />
+            <navPoint id="sec2.1" playOrder="13">
+                <navLabel>
+                     <text>2.1 Creating a Personal Energy-Management Plan</text>
+                </navLabel>
+                <content src="chapter_02.html#sec2.1" />
+            </navPoint>
+            <navPoint id="sec2.2" playOrder="14">
+                <navLabel>
+                    <text>2.2 Creating a Time-Management Plan</text>
+                </navLabel>
+				<content src="chapter_02.html#sec2.2" />
+            </navPoint>
+            <navPoint id="sec2.3" playOrder="15">
+                <navLabel>
+                    <text>2.3 Avoiding Time-Management Pitfalls</text>
+                </navLabel>
+                <content src="chapter_02.html#sec2.3" />
+            </navPoint>
+			<navPoint id="sec2.4" playOrder="16">
+                <navLabel>
+                    <text>2.4 Balancing Life and School</text>
+                </navLabel>
+                <content src="chapter_02.html#sec2.4" />
+            </navPoint>
+                
+            <navPoint id="ch2_summary" playOrder="17">
+                <navLabel>
+                    <text>Summary</text>
+                </navLabel>
+                <content src="chapter_02.html#ch2_summary" />
+            </navPoint>
+		</navPoint>
+		
+		<navPoint id="sec3.0" playOrder="18">
+            <navLabel>
+                    <text>Ch 3: Enjoying the College Experience</text>
+            </navLabel>
+            <content src="chapter_03.html#sec3.0" />
+            <navPoint id="sec3.1" playOrder="19">
+                <navLabel>
+                     <text>3.1 Enjoying the College Experience Online</text>
+                </navLabel>
+                <content src="chapter_03.html#sec3.1" />
+            </navPoint>
+            <navPoint id="sec3.2" playOrder="20">
+                <navLabel>
+                    <text>3.2 Social Interaction</text>
+                </navLabel>
+				<content src="chapter_03.html#sec3.2" />
+            </navPoint>
+            <navPoint id="sec3.3" playOrder="21">
+                <navLabel>
+                    <text>3.3 Diversity and Inclusion</text>
+                </navLabel>
+                <content src="chapter_03.html#sec3.3" />
+            </navPoint>
+                
+            <navPoint id="ch3_summary" playOrder="22">
+                <navLabel>
+                    <text>Summary</text>
+                </navLabel>
+                <content src="chapter_03.html#ch3_summary" />
+            </navPoint>
+		</navPoint>
+		
+		<navPoint id="sec0.2" playOrder="23">
+            <navLabel>
+                <text>Part 2: Thinking About Learning</text>
+            </navLabel>
+            <content src="chapter_04.html#sec0.2" />				
+        </navPoint>
+		
+		<navPoint id="sec4.0" playOrder="24">
+            <navLabel>
+                    <text>Ch 4: Assessing Yourself</text>
+            </navLabel>
+            <content src="chapter_04.html#sec4.0" />
+            <navPoint id="sec4.1" playOrder="25">
+                <navLabel>
+                     <text>4.1 The Value of Self-Assessments</text>
+                </navLabel>
+                <content src="chapter_04.html#sec4.1" />
+            </navPoint>
+            <navPoint id="sec4.2" playOrder="26">
+                <navLabel>
+                    <text>4.2 Types of Self-Assessments</text>
+                </navLabel>
+				<content src="chapter_04.html#sec4.2" />
+            </navPoint>
+                
+            <navPoint id="ch4_summary" playOrder="27">
+                <navLabel>
+                    <text>Summary</text>
+                </navLabel>
+                <content src="chapter_04.html#ch4_summary" />
+            </navPoint>
+		</navPoint>
+		
+		<navPoint id="sec5.0" playOrder="28">
+            <navLabel>
+                    <text>Ch 5: Understanding How We Learn</text>
+            </navLabel>
+            <content src="chapter_05.html#sec5.0" />
+            <navPoint id="sec5.1" playOrder="29">
+                <navLabel>
+                     <text>5.1 All Learning Is Not the Same</text>
+                </navLabel>
+                <content src="chapter_05.html#sec5.1" />
+            </navPoint>
+            <navPoint id="sec5.2" playOrder="30">
+                <navLabel>
+                    <text>5.2 Learning Styles</text>
+                </navLabel>
+				<content src="chapter_05.html#sec5.2" />
+            </navPoint>
+            <navPoint id="sec5.3" playOrder="31">
+                <navLabel>
+                    <text>5.3 Brain-Based Learning</text>
+                </navLabel>
+                <content src="chapter_05.html#sec5.3" />
+            </navPoint>
+                
+            <navPoint id="ch5_summary" playOrder="32">
+                <navLabel>
+                    <text>Summary</text>
+                </navLabel>
+                <content src="chapter_05.html#ch5_summary" />
+            </navPoint>
+		</navPoint>
+		
+		<navPoint id="sec6.0" playOrder="33">
+            <navLabel>
+                    <text>Ch 6: Communicating at the College Level</text>
+            </navLabel>
+            <content src="chapter_06.html#sec6.0" />
+            <navPoint id="sec6.1" playOrder="34">
+                <navLabel>
+                     <text>6.1 Why Writing Skills Matter</text>
+                </navLabel>
+                <content src="chapter_06.html#sec6.1" />
+            </navPoint>
+            <navPoint id="sec6.2" playOrder="35">
+                <navLabel>
+                    <text>6.2 Writing as a Learning Process</text>
+                </navLabel>
+				<content src="chapter_06.html#sec6.2" />
+            </navPoint>
+            <navPoint id="sec6.3" playOrder="36">
+                <navLabel>
+                    <text>6.3 Writing as a Skill-Development Process</text>
+                </navLabel>
+                <content src="chapter_06.html#sec6.3" />
+            </navPoint>
+                
+            <navPoint id="ch6_summary" playOrder="37">
+                <navLabel>
+                    <text>Summary</text>
+                </navLabel>
+                <content src="chapter_06.html#ch6_summary" />
+            </navPoint>
+		</navPoint>
+		
+		<navPoint id="sec0.3" playOrder="38">
+            <navLabel>
+                <text>Part 3: Developing Strategies for Success</text>
+            </navLabel>
+            <content src="chapter_07.html#sec0.3" />				
+        </navPoint>
+		
+		<navPoint id="sec7.0" playOrder="39">
+            <navLabel>
+                    <text>Ch 7: Learning and Coursework Strategies</text>
+            </navLabel>
+            <content src="chapter_07.html#sec7.0" />
+            <navPoint id="sec7.1" playOrder="40">
+                <navLabel>
+                     <text>7.1 Reflection and Self-Regulation</text>
+                </navLabel>
+                <content src="chapter_07.html#sec7.1" />
+            </navPoint>
+            <navPoint id="sec7.2" playOrder="41">
+                <navLabel>
+                    <text>7.2 Metacognition</text>
+                </navLabel>
+				<content src="chapter_07.html#sec7.2" />
+            </navPoint>
+            <navPoint id="sec7.3" playOrder="42">
+                <navLabel>
+                    <text>7.3 Preparing to Learn</text>
+                </navLabel>
+                <content src="chapter_07.html#sec7.3" />
+            </navPoint>
+            <navPoint id="sec7.4" playOrder="43">
+                <navLabel>
+                    <text>7.4 Coursework Strategies</text>
+                </navLabel>
+                <content src="chapter_07.html#sec7.4" />
+            </navPoint>
+                
+            <navPoint id="ch7_summary" playOrder="44">
+                <navLabel>
+                    <text>Summary</text>
+                </navLabel>
+                <content src="chapter_07.html#ch7_summary" />
+            </navPoint>
+		</navPoint>
+		
+		<navPoint id="sec8.0" playOrder="45">
+            <navLabel>
+                    <text>Ch 8: Reading Strategies</text>
+            </navLabel>
+            <content src="chapter_08.html#sec8.0" />
+            <navPoint id="sec8.1" playOrder="46">
+                <navLabel>
+                     <text>8.1 Strategies for Active Reading</text>
+                </navLabel>
+                <content src="chapter_08.html#sec8.1" />
+            </navPoint>
+            <navPoint id="sec8.2" playOrder="47">
+                <navLabel>
+                    <text>8.2 Other Effective Reading Strategies</text>
+                </navLabel>
+				<content src="chapter_08.html#sec8.2" />
+            </navPoint>
+            <navPoint id="sec8.3" playOrder="48">
+                <navLabel>
+                    <text>8.3 Applying Reading Strategies to Assignments</text>
+                </navLabel>
+                <content src="chapter_08.html#sec8.3" />
+            </navPoint>
+                
+            <navPoint id="ch8_summary" playOrder="49">
+                <navLabel>
+                    <text>Summary</text>
+                </navLabel>
+                <content src="chapter_08.html#ch8_summary" />
+            </navPoint>
+		</navPoint>
+		
+		<navPoint id="sec9.0" playOrder="50">
+            <navLabel>
+                    <text>Ch 9: Note-Taking Strategies</text>
+            </navLabel>
+            <content src="chapter_09.html#sec9.0" />
+            <navPoint id="sec9.1" playOrder="51">
+                <navLabel>
+                     <text>9.1 Preparing to Take Notes</text>
+                </navLabel>
+                <content src="chapter_09.html#sec9.1" />
+            </navPoint>
+            <navPoint id="sec9.2" playOrder="52">
+                <navLabel>
+                    <text>9.2 Taking Notes</text>
+                </navLabel>
+				<content src="chapter_09.html#sec9.2" />
+            </navPoint>
+            <navPoint id="sec9.3" playOrder="53">
+                <navLabel>
+                    <text>9.3 Annotating Notes After Initial Note-Taking Sessions</text>
+                </navLabel>
+                <content src="chapter_09.html#sec9.3" />
+            </navPoint>
+                
+            <navPoint id="ch9_summary" playOrder="54">
+                <navLabel>
+                    <text>Summary</text>
+                </navLabel>
+                <content src="chapter_09.html#ch9_summary" />
+            </navPoint>
+		</navPoint>
+		
+		<navPoint id="sec0.4" playOrder="55">
+            <navLabel>
+                <text>Part 4: Building Good Habits</text>
+            </navLabel>
+            <content src="chapter_10.html#sec0.4" />				
+        </navPoint>
+		
+		<navPoint id="sec10.0" playOrder="56">
+            <navLabel>
+                    <text>Ch 10: Developing Resilience, Grit, and a Growth Mindset</text>
+            </navLabel>
+            <content src="chapter_10.html#sec10.0" />
+            <navPoint id="sec10.1" playOrder="57">
+                <navLabel>
+                     <text>10.1 Resilience and Grit</text>
+                </navLabel>
+                <content src="chapter_10.html#sec10.1" />
+            </navPoint>
+            <navPoint id="sec10.2" playOrder="58">
+                <navLabel>
+                    <text>10.2 Growth Mindset</text>
+                </navLabel>
+				<content src="chapter_10.html#sec10.2" />
+            </navPoint>
+                
+            <navPoint id="ch10_summary" playOrder="59">
+                <navLabel>
+                    <text>Summary</text>
+                </navLabel>
+                <content src="chapter_10.html#ch10_summary" />
+            </navPoint>
+		</navPoint>
+		
+		<navPoint id="sec11.0" playOrder="60">
+            <navLabel>
+                    <text>Ch 11: Acting With Integrity</text>
+            </navLabel>
+            <content src="chapter_11.html#sec11.0" />
+            <navPoint id="sec11.1" playOrder="61">
+                <navLabel>
+                     <text>11.1 Academic Integrity</text>
+                </navLabel>
+                <content src="chapter_11.html#sec11.1" />
+            </navPoint>
+            <navPoint id="sec11.2" playOrder="62">
+                <navLabel>
+                    <text>11.2 Online Integrity</text>
+                </navLabel>
+				<content src="chapter_11.html#sec11.2" />
+            </navPoint>
+                
+            <navPoint id="ch11_summary" playOrder="63">
+                <navLabel>
+                    <text>Summary</text>
+                </navLabel>
+                <content src="chapter_11.html#ch11_summary" />
+            </navPoint>
+		</navPoint>
+		
+		<navPoint id="sec0.5" playOrder="64">
+            <navLabel>
+                <text>Part 5: Owning Your Career and Professional Development</text>
+            </navLabel>
+            <content src="chapter_12.html#sec0.5" />				
+        </navPoint>
+		
+		<navPoint id="sec12.0" playOrder="65">
+            <navLabel>
+                    <text>Ch 12: From College to Career</text>
+            </navLabel>
+            <content src="chapter_12.html#sec12.0" />
+            <navPoint id="sec12.1" playOrder="66">
+                <navLabel>
+                     <text>12.1 Being College and Career Ready</text>
+                </navLabel>
+                <content src="chapter_12.html#sec12.1" />
+            </navPoint>
+            <navPoint id="sec12.2" playOrder="67">
+                <navLabel>
+                    <text>12.2 Creating a Personal Development Plan</text>
+                </navLabel>
+				<content src="chapter_12.html#sec12.2" />
+            </navPoint>
+            <navPoint id="sec12.3" playOrder="68">
+                <navLabel>
+                    <text>12.3 Moving From a Major to a Career</text>
+                </navLabel>
+                <content src="chapter_12.html#sec12.3" />
+            </navPoint>
+                
+            <navPoint id="ch12_summary" playOrder="69">
+                <navLabel>
+                    <text>Summary</text>
+                </navLabel>
+                <content src="chapter_12.html#ch12_summary" />
+            </navPoint>
+		</navPoint>
+		
+		<navPoint id="sec13.0" playOrder="70">
+            <navLabel>
+                    <text>Ch 13: Career Planning and Professional Development</text>
+            </navLabel>
+            <content src="chapter_13.html#sec13.0" />
+            <navPoint id="sec13.1" playOrder="71">
+                <navLabel>
+                     <text>13.1 Career Planning</text>
+                </navLabel>
+                <content src="chapter_13.html#sec13.1" />
+            </navPoint>
+            <navPoint id="sec13.2" playOrder="72">
+                <navLabel>
+                    <text>13.2 Professional Skill Building</text>
+                </navLabel>
+				<content src="chapter_13.html#sec13.2" />
+            </navPoint>
+                
+            <navPoint id="ch13_summary" playOrder="73">
+                <navLabel>
+                    <text>Summary</text>
+                </navLabel>
+                <content src="chapter_13.html#ch13_summary" />
+            </navPoint>
+		</navPoint>
+		
+		<navPoint id="sec14.0" playOrder="74">
+            <navLabel>
+                    <text>Ch 14: Professional Supports and Resources</text>
+            </navLabel>
+            <content src="chapter_14.html#sec14.0" />
+            <navPoint id="sec14.1" playOrder="75">
+                <navLabel>
+                     <text>14.1 Support Networks</text>
+                </navLabel>
+                <content src="chapter_14.html#sec14.1" />
+            </navPoint>
+            <navPoint id="sec14.2" playOrder="76">
+                <navLabel>
+                    <text>14.2 Career- and Professional-Development Resources</text>
+                </navLabel>
+				<content src="chapter_14.html#sec14.2" />
+            </navPoint>
+            <navPoint id="sec14.3" playOrder="77">
+                <navLabel>
+                    <text>14.3 Strategies for Professional Networking</text>
+                </navLabel>
+                <content src="chapter_14.html#sec14.3" />
+            </navPoint>
+                
+            <navPoint id="ch14_summary" playOrder="78">
+                <navLabel>
+                    <text>Summary</text>
+                </navLabel>
+                <content src="chapter_14.html#ch14_summary" />
+            </navPoint>
+		</navPoint> 
+		
+		<navPoint id="appendixa" playOrder="79">
+			<navLabel>
+			<text>Appendix A:  A Tour of Microsoft® Word</text>
+			</navLabel>
+			<content src="Appendix_A.html#appendixa"/>
+		</navPoint>	
+		
+		<navPoint id="appendixb" playOrder="80">
+			<navLabel>
+			<text>Appendix B:  A Tour of Microsoft® Word on Mac®</text>
+			</navLabel>
+			<content src="Appendix_B.html#appendixb"/>
+		</navPoint>	
+		
+		<navPoint id="appendixc" playOrder="81">
+			<navLabel>
+			<text>Appendix C:  A Tour of Microsoft® PowerPoint®</text>
+			</navLabel>
+			<content src="Appendix_C.html#appendixc"/>
+		</navPoint>	
+		
+		<navPoint id="appendixd" playOrder="82">
+			<navLabel>
+			<text>Appendix D:  A Tour of Microsoft® PowerPoint® on Mac®</text>
+			</navLabel>
+			<content src="Appendix_D.html#appendixd"/>
+		</navPoint>
+		
+		<navPoint id="glossary" playOrder="83">
+			<navLabel>
+				<text>Glossary</text>
+			</navLabel>
+			<content src="back_matter.html#glossary"/>			
+		</navPoint>
+
+		<navPoint id="references" playOrder="84">
+			<navLabel>
+				<text>References</text>
+			</navLabel>
+			<content src="back_matter.html#references"/>			
+		</navPoint>
+
+    </navMap>`
+		
+
+		
+		<pageList>
+			<pageTarget id="pi" type="normal" value="i">
+					<navLabel><text>i</text></navLabel>
+					<content src="front_matter.html#pi"/>
+				</pageTarget>
+			<pageTarget id="pii" type="normal" value="ii">
+					<navLabel><text>ii</text></navLabel>
+					<content src="front_matter.html#pii"/>
+				</pageTarget>
+			<pageTarget id="pxv" type="normal" value="xv">
+					<navLabel><text>xv</text></navLabel>
+					<content src="front_matter.html#pxv"/>
+				</pageTarget>
+			<pageTarget id="pxvii" type="normal" value="xvii">
+					<navLabel><text>xvii</text></navLabel>
+					<content src="front_matter.html#pxvii"/>
+				</pageTarget>
+			<pageTarget id="pxix" type="normal" value="xix">
+					<navLabel><text>xix</text></navLabel>
+					<content src="front_matter.html#pxix"/>
+				</pageTarget>
+
+				
+				
+			 <pageTarget id="p1" type="normal" value="1">
+					<navLabel><text>1</text></navLabel>
+					<content src="chapter_01.html#p1"/>
+				</pageTarget>
+			  <pageTarget id="p3" type="normal" value="3">
+					<navLabel><text>3</text></navLabel>
+					<content src="chapter_01.html#p3"/>
+				</pageTarget>
+			<pageTarget id="p4" type="normal" value="4">
+					<navLabel><text>4</text></navLabel>
+					<content src="chapter_01.html#p4"/>
+				</pageTarget>
+			<pageTarget id="p5" type="normal" value="5">
+					<navLabel><text>5</text></navLabel>
+					<content src="chapter_01.html#p5"/>
+				</pageTarget>
+			<pageTarget id="p6" type="normal" value="6">
+					<navLabel><text>6</text></navLabel>
+					<content src="chapter_01.html#p6"/>
+				</pageTarget>
+			<pageTarget id="p7" type="normal" value="7">
+					<navLabel><text>7</text></navLabel>
+					<content src="chapter_01.html#p7"/>
+				</pageTarget>
+			<pageTarget id="p8" type="normal" value="8">
+					<navLabel><text>8</text></navLabel>
+					<content src="chapter_01.html#p8"/>
+				</pageTarget>
+			<pageTarget id="p9" type="normal" value="9">
+					<navLabel><text>9</text></navLabel>
+					<content src="chapter_01.html#p9"/>
+				</pageTarget>
+			<pageTarget id="p10" type="normal" value="10">
+					<navLabel><text>10</text></navLabel>
+					<content src="chapter_01.html#p10"/>
+				</pageTarget>
+			<pageTarget id="p11" type="normal" value="11">
+					<navLabel><text>11</text></navLabel>
+					<content src="chapter_01.html#p11"/>
+				</pageTarget>
+			<pageTarget id="p12" type="normal" value="12">
+					<navLabel><text>12</text></navLabel>
+					<content src="chapter_01.html#p12"/>
+				</pageTarget>
+			<pageTarget id="p13" type="normal" value="13">
+					<navLabel><text>13</text></navLabel>
+					<content src="chapter_01.html#p13"/>
+				</pageTarget>
+			<pageTarget id="p14" type="normal" value="14">
+					<navLabel><text>14</text></navLabel>
+					<content src="chapter_01.html#p14"/>
+				</pageTarget>
+			<pageTarget id="p15" type="normal" value="15">
+					<navLabel><text>15</text></navLabel>
+					<content src="chapter_01.html#p15"/>
+				</pageTarget>
+			<pageTarget id="p16" type="normal" value="16">
+					<navLabel><text>16</text></navLabel>
+					<content src="chapter_01.html#p16"/>
+				</pageTarget>
+			<pageTarget id="p17" type="normal" value="17">
+					<navLabel><text>17</text></navLabel>
+					<content src="chapter_01.html#p17"/>
+				</pageTarget>
+			<pageTarget id="p18" type="normal" value="18">
+					<navLabel><text>18</text></navLabel>
+					<content src="chapter_01.html#p18"/>
+				</pageTarget>
+			<pageTarget id="p19" type="normal" value="19">
+					<navLabel><text>19</text></navLabel>
+					<content src="chapter_01.html#p19"/>
+				</pageTarget>
+			<pageTarget id="p20" type="normal" value="20">
+					<navLabel><text>20</text></navLabel>
+					<content src="chapter_01.html#p20"/>
+				</pageTarget>
+			<pageTarget id="p21" type="normal" value="21">
+					<navLabel><text>21</text></navLabel>
+					<content src="chapter_01.html#p21"/>
+				</pageTarget>
+			<pageTarget id="p22" type="normal" value="22">
+					<navLabel><text>22</text></navLabel>
+					<content src="chapter_01.html#p22"/>
+				</pageTarget>
+				
+				
+				
+			<pageTarget id="p23" type="normal" value="23">
+					<navLabel><text>23</text></navLabel>
+					<content src="chapter_02.html#p23"/>
+				</pageTarget>
+			<pageTarget id="p24" type="normal" value="24">
+					<navLabel><text>24</text></navLabel>
+					<content src="chapter_02.html#p24"/>
+				</pageTarget>
+			<pageTarget id="p25" type="normal" value="25">
+					<navLabel><text>25</text></navLabel>
+					<content src="chapter_02.html#p25"/>
+				</pageTarget>
+			<pageTarget id="p26" type="normal" value="26">
+					<navLabel><text>26</text></navLabel>
+					<content src="chapter_02.html#p26"/>
+				</pageTarget>
+			<pageTarget id="p27" type="normal" value="27">
+					<navLabel><text>27</text></navLabel>
+					<content src="chapter_02.html#p27"/>
+				</pageTarget>
+			<pageTarget id="p28" type="normal" value="28">
+					<navLabel><text>28</text></navLabel>
+					<content src="chapter_02.html#p28"/>
+				</pageTarget>
+			<pageTarget id="p29" type="normal" value="29">
+					<navLabel><text>29</text></navLabel>
+					<content src="chapter_02.html#p29"/>
+				</pageTarget>
+			<pageTarget id="p30" type="normal" value="30">
+					<navLabel><text>30</text></navLabel>
+					<content src="chapter_02.html#p30"/>
+				</pageTarget>
+			<pageTarget id="p31" type="normal" value="31">
+					<navLabel><text>31</text></navLabel>
+					<content src="chapter_02.html#p31"/>
+				</pageTarget>
+			<pageTarget id="p32" type="normal" value="32">
+					<navLabel><text>32</text></navLabel>
+					<content src="chapter_02.html#p32"/>
+				</pageTarget>
+			<pageTarget id="p33" type="normal" value="33">
+					<navLabel><text>33</text></navLabel>
+					<content src="chapter_02.html#p33"/>
+				</pageTarget>
+			<pageTarget id="p34" type="normal" value="34">
+					<navLabel><text>34</text></navLabel>
+					<content src="chapter_02.html#p34"/>
+				</pageTarget>
+			<pageTarget id="p35" type="normal" value="35">
+					<navLabel><text>35</text></navLabel>
+					<content src="chapter_02.html#p35"/>
+				</pageTarget>
+			<pageTarget id="p36" type="normal" value="36">
+					<navLabel><text>36</text></navLabel>
+					<content src="chapter_02.html#p36"/>
+				</pageTarget>	
+			<pageTarget id="p37" type="normal" value="37">
+					<navLabel><text>37</text></navLabel>
+					<content src="chapter_02.html#p37"/>
+				</pageTarget>
+			<pageTarget id="p38" type="normal" value="38">
+					<navLabel><text>38</text></navLabel>
+					<content src="chapter_02.html#p38"/>
+				</pageTarget>
+			<pageTarget id="p39" type="normal" value="39">
+					<navLabel><text>39</text></navLabel>
+					<content src="chapter_02.html#p39"/>
+				</pageTarget>
+			<pageTarget id="p40" type="normal" value="40">
+					<navLabel><text>40</text></navLabel>
+					<content src="chapter_02.html#p40"/>
+				</pageTarget>
+			<pageTarget id="p41" type="normal" value="41">
+					<navLabel><text>41</text></navLabel>
+					<content src="chapter_02.html#p41"/>
+				</pageTarget>
+			<pageTarget id="p42" type="normal" value="42">
+					<navLabel><text>42</text></navLabel>
+					<content src="chapter_02.html#p42"/>
+				</pageTarget>
+			<pageTarget id="p43" type="normal" value="43">
+					<navLabel><text>43</text></navLabel>
+					<content src="chapter_02.html#p43"/>
+				</pageTarget>
+			<pageTarget id="p44" type="normal" value="44">
+					<navLabel><text>44</text></navLabel>
+					<content src="chapter_02.html#p44"/>
+				</pageTarget>
+			<pageTarget id="p45" type="normal" value="45">
+					<navLabel><text>45</text></navLabel>
+					<content src="chapter_02.html#p45"/>
+				</pageTarget>
+			<pageTarget id="p46" type="normal" value="46">
+					<navLabel><text>46</text></navLabel>
+					<content src="chapter_02.html#p46"/>
+				</pageTarget>						
+			<pageTarget id="p47" type="normal" value="47">
+					<navLabel><text>47</text></navLabel>
+					<content src="chapter_02.html#p47"/>
+				</pageTarget>
+				
+				
+				
+			<pageTarget id="p49" type="normal" value="49">
+					<navLabel><text>49</text></navLabel>
+					<content src="chapter_03.html#p49"/>
+				</pageTarget>
+			<pageTarget id="p50" type="normal" value="50">
+					<navLabel><text>50</text></navLabel>
+					<content src="chapter_03.html#p50"/>
+				</pageTarget>
+			<pageTarget id="p51" type="normal" value="51">
+					<navLabel><text>51</text></navLabel>
+					<content src="chapter_03.html#p51"/>
+				</pageTarget>
+			<pageTarget id="p52" type="normal" value="52">
+					<navLabel><text>52</text></navLabel>
+					<content src="chapter_03.html#p52"/>
+				</pageTarget>	
+			<pageTarget id="p53" type="normal" value="53">
+					<navLabel><text>53</text></navLabel>
+					<content src="chapter_03.html#p53"/>
+				</pageTarget>
+			<pageTarget id="p54" type="normal" value="54">
+					<navLabel><text>54</text></navLabel>
+					<content src="chapter_03.html#p54"/>
+				</pageTarget>
+			<pageTarget id="p55" type="normal" value="55">
+					<navLabel><text>55</text></navLabel>
+					<content src="chapter_03.html#p55"/>
+				</pageTarget>
+			<pageTarget id="p56" type="normal" value="56">
+					<navLabel><text>56</text></navLabel>
+					<content src="chapter_03.html#p56"/>
+				</pageTarget>
+			<pageTarget id="p57" type="normal" value="57">
+					<navLabel><text>57</text></navLabel>
+					<content src="chapter_03.html#p57"/>
+				</pageTarget>
+				
+				
+				
+			<pageTarget id="p59" type="normal" value="59">
+					<navLabel><text>59</text></navLabel>
+					<content src="chapter_04.html#p59"/>
+				</pageTarget>
+			<pageTarget id="p61" type="normal" value="61">
+					<navLabel><text>61</text></navLabel>
+					<content src="chapter_04.html#p61"/>
+				</pageTarget>
+			<pageTarget id="p62" type="normal" value="62">
+					<navLabel><text>62</text></navLabel>
+					<content src="chapter_04.html#p62"/>
+				</pageTarget>
+			<pageTarget id="p63" type="normal" value="63">
+					<navLabel><text>63</text></navLabel>
+					<content src="chapter_04.html#p63"/>
+				</pageTarget>
+			<pageTarget id="p64" type="normal" value="64">
+					<navLabel><text>64</text></navLabel>
+					<content src="chapter_04.html#p64"/>
+				</pageTarget>
+			<pageTarget id="p65" type="normal" value="65">
+					<navLabel><text>65</text></navLabel>
+					<content src="chapter_04.html#p65"/>
+				</pageTarget>
+			<pageTarget id="p66" type="normal" value="66">
+					<navLabel><text>66</text></navLabel>
+					<content src="chapter_04.html#p66"/>
+				</pageTarget>
+			<pageTarget id="p67" type="normal" value="67">
+					<navLabel><text>67</text></navLabel>
+					<content src="chapter_04.html#p67"/>
+				</pageTarget>
+			<pageTarget id="p68" type="normal" value="68">
+					<navLabel><text>68</text></navLabel>
+					<content src="chapter_04.html#p68"/>
+				</pageTarget>
+			<pageTarget id="p69" type="normal" value="69">
+					<navLabel><text>69</text></navLabel>
+					<content src="chapter_04.html#p69"/>
+				</pageTarget>
+			<pageTarget id="p70" type="normal" value="70">
+					<navLabel><text>70</text></navLabel>
+					<content src="chapter_04.html#p70"/>
+				</pageTarget>
+			<pageTarget id="p71" type="normal" value="71">
+					<navLabel><text>71</text></navLabel>
+					<content src="chapter_04.html#p71"/>
+				</pageTarget>
+			<pageTarget id="p72" type="normal" value="72">
+					<navLabel><text>72</text></navLabel>
+					<content src="chapter_04.html#p72"/>
+				</pageTarget>			
+			<pageTarget id="p73" type="normal" value="73">
+					<navLabel><text>73</text></navLabel>
+					<content src="chapter_04.html#p73"/>
+				</pageTarget>
+				
+
+
+			<pageTarget id="p75" type="normal" value="75">
+					<navLabel><text>75</text></navLabel>
+					<content src="chapter_05.html#p75"/>
+				</pageTarget>
+			<pageTarget id="p76" type="normal" value="76">
+					<navLabel><text>76</text></navLabel>
+					<content src="chapter_05.html#p76"/>
+				</pageTarget>
+			<pageTarget id="p77" type="normal" value="77">
+					<navLabel><text>77</text></navLabel>
+					<content src="chapter_05.html#p77"/>
+				</pageTarget>
+			<pageTarget id="p78" type="normal" value="78">
+					<navLabel><text>78</text></navLabel>
+					<content src="chapter_05.html#p78"/>
+				</pageTarget>
+			<pageTarget id="p79" type="normal" value="79">
+					<navLabel><text>79</text></navLabel>
+					<content src="chapter_05.html#p79"/>
+				</pageTarget>
+			<pageTarget id="p80" type="normal" value="80">
+					<navLabel><text>80</text></navLabel>
+					<content src="chapter_05.html#p80"/>
+				</pageTarget>
+			<pageTarget id="p81" type="normal" value="81">
+					<navLabel><text>81</text></navLabel>
+					<content src="chapter_05.html#p81"/>
+				</pageTarget>
+			<pageTarget id="p82" type="normal" value="82">
+					<navLabel><text>82</text></navLabel>
+					<content src="chapter_05.html#p82"/>
+				</pageTarget>
+			<pageTarget id="p83" type="normal" value="83">
+					<navLabel><text>83</text></navLabel>
+					<content src="chapter_05.html#p83"/>
+				</pageTarget>
+			<pageTarget id="p84" type="normal" value="84">
+					<navLabel><text>84</text></navLabel>
+					<content src="chapter_05.html#p84"/>
+				</pageTarget>
+			<pageTarget id="p85" type="normal" value="85">
+					<navLabel><text>85</text></navLabel>
+					<content src="chapter_05.html#p85"/>
+				</pageTarget>
+			<pageTarget id="p86" type="normal" value="86">
+					<navLabel><text>86</text></navLabel>
+					<content src="chapter_05.html#p86"/>
+				</pageTarget>
+			<pageTarget id="p87" type="normal" value="87">
+					<navLabel><text>87</text></navLabel>
+					<content src="chapter_05.html#p87"/>
+				</pageTarget>
+				
+				
+
+			<pageTarget id="p89" type="normal" value="89">
+					<navLabel><text>89</text></navLabel>
+					<content src="chapter_06.html#p89"/>
+				</pageTarget>
+			<pageTarget id="p90" type="normal" value="90">
+					<navLabel><text>90</text></navLabel>
+					<content src="chapter_06.html#p90"/>
+				</pageTarget>												
+			<pageTarget id="p91" type="normal" value="91">
+					<navLabel><text>91</text></navLabel>
+					<content src="chapter_06.html#p91"/>
+				</pageTarget>
+			<pageTarget id="p92" type="normal" value="92">
+					<navLabel><text>92</text></navLabel>
+					<content src="chapter_06.html#p92"/>
+				</pageTarget>
+			<pageTarget id="p93" type="normal" value="93">
+					<navLabel><text>93</text></navLabel>
+					<content src="chapter_06.html#p93"/>
+				</pageTarget>
+			<pageTarget id="p94" type="normal" value="94">
+					<navLabel><text>94</text></navLabel>
+					<content src="chapter_06.html#p94"/>
+				</pageTarget>
+			<pageTarget id="p95" type="normal" value="95">
+					<navLabel><text>95</text></navLabel>
+					<content src="chapter_06.html#p95"/>
+				</pageTarget>
+			<pageTarget id="p96" type="normal" value="96">
+					<navLabel><text>96</text></navLabel>
+					<content src="chapter_06.html#p96"/>
+				</pageTarget>
+				
+				
+				
+			<pageTarget id="p97" type="normal" value="97">
+					<navLabel><text>97</text></navLabel>
+					<content src="chapter_07.html#p97"/>
+				</pageTarget>
+			<pageTarget id="p99" type="normal" value="99">
+					<navLabel><text>99</text></navLabel>
+					<content src="chapter_07.html#p99"/>
+				</pageTarget>
+			<pageTarget id="p100" type="normal" value="100">
+					<navLabel><text>100</text></navLabel>
+					<content src="chapter_07.html#p100"/>
+				</pageTarget>
+			<pageTarget id="p101" type="normal" value="101">
+					<navLabel><text>101</text></navLabel>
+					<content src="chapter_07.html#p101"/>
+				</pageTarget>
+			<pageTarget id="p102" type="normal" value="102">
+					<navLabel><text>102</text></navLabel>
+					<content src="chapter_07.html#p102"/>
+				</pageTarget>
+			<pageTarget id="p103" type="normal" value="103">
+					<navLabel><text>103</text></navLabel>
+					<content src="chapter_07.html#p103"/>
+				</pageTarget>
+			<pageTarget id="p104" type="normal" value="104">
+					<navLabel><text>104</text></navLabel>
+					<content src="chapter_07.html#p104"/>
+				</pageTarget>
+			<pageTarget id="p105" type="normal" value="105">
+					<navLabel><text>105</text></navLabel>
+					<content src="chapter_07.html#p105"/>
+				</pageTarget>
+			<pageTarget id="p106" type="normal" value="106">
+					<navLabel><text>106</text></navLabel>
+					<content src="chapter_07.html#p106"/>
+				</pageTarget>
+			<pageTarget id="p107" type="normal" value="107">
+					<navLabel><text>107</text></navLabel>
+					<content src="chapter_07.html#p107"/>
+				</pageTarget>
+			<pageTarget id="p108" type="normal" value="108">
+					<navLabel><text>108</text></navLabel>
+					<content src="chapter_07.html#p108"/>
+				</pageTarget>
+			<pageTarget id="p109" type="normal" value="109">
+					<navLabel><text>109</text></navLabel>
+					<content src="chapter_07.html#p109"/>
+				</pageTarget>
+			<pageTarget id="p110" type="normal" value="110">
+					<navLabel><text>110</text></navLabel>
+					<content src="chapter_07.html#p110"/>
+				</pageTarget>
+			<pageTarget id="p111" type="normal" value="111">
+					<navLabel><text>111</text></navLabel>
+					<content src="chapter_07.html#p111"/>
+				</pageTarget>
+			<pageTarget id="p112" type="normal" value="112">
+					<navLabel><text>112</text></navLabel>
+					<content src="chapter_07.html#p112"/>
+				</pageTarget>
+			<pageTarget id="p113" type="normal" value="113">
+					<navLabel><text>113</text></navLabel>
+					<content src="chapter_07.html#p113"/>
+				</pageTarget>
+			<pageTarget id="p114" type="normal" value="114">
+					<navLabel><text>114</text></navLabel>
+					<content src="chapter_07.html#p114"/>
+				</pageTarget>
+			<pageTarget id="p115" type="normal" value="115">
+					<navLabel><text>115</text></navLabel>
+					<content src="chapter_07.html#p115"/>
+				</pageTarget>
+			<pageTarget id="p116" type="normal" value="116">
+					<navLabel><text>116</text></navLabel>
+					<content src="chapter_07.html#p116"/>
+				</pageTarget>
+			<pageTarget id="p117" type="normal" value="117">
+					<navLabel><text>117</text></navLabel>
+					<content src="chapter_07.html#p117"/>
+				</pageTarget>
+				
+				
+
+			<pageTarget id="p119" type="normal" value="119">
+					<navLabel><text>119</text></navLabel>
+					<content src="chapter_08.html#p119"/>
+				</pageTarget>
+			<pageTarget id="p120" type="normal" value="120">
+					<navLabel><text>120</text></navLabel>
+					<content src="chapter_08.html#p120"/>
+				</pageTarget>
+			<pageTarget id="p121" type="normal" value="121">
+					<navLabel><text>121</text></navLabel>
+					<content src="chapter_08.html#p121"/>
+				</pageTarget>
+			<pageTarget id="p122" type="normal" value="122">
+					<navLabel><text>122</text></navLabel>
+					<content src="chapter_08.html#p122"/>
+				</pageTarget>
+			<pageTarget id="p123" type="normal" value="123">
+					<navLabel><text>123</text></navLabel>
+					<content src="chapter_08.html#p123"/>
+				</pageTarget>
+			<pageTarget id="p124" type="normal" value="124">
+					<navLabel><text>124</text></navLabel>
+					<content src="chapter_08.html#p124"/>
+				</pageTarget>
+			<pageTarget id="p125" type="normal" value="125">
+					<navLabel><text>125</text></navLabel>
+					<content src="chapter_08.html#p125"/>
+				</pageTarget>
+			<pageTarget id="p126" type="normal" value="126">
+					<navLabel><text>126</text></navLabel>
+					<content src="chapter_08.html#p126"/>
+				</pageTarget>
+			<pageTarget id="p127" type="normal" value="127">
+					<navLabel><text>127</text></navLabel>
+					<content src="chapter_08.html#p127"/>
+				</pageTarget>
+			<pageTarget id="p128" type="normal" value="128">
+					<navLabel><text>128</text></navLabel>
+					<content src="chapter_08.html#p128"/>
+				</pageTarget>
+			<pageTarget id="p129" type="normal" value="129">
+					<navLabel><text>129</text></navLabel>
+					<content src="chapter_08.html#p129"/>
+				</pageTarget>
+			<pageTarget id="p130" type="normal" value="130">
+					<navLabel><text>130</text></navLabel>
+					<content src="chapter_08.html#p130"/>
+				</pageTarget>
+			<pageTarget id="p131" type="normal" value="131">
+					<navLabel><text>131</text></navLabel>
+					<content src="chapter_08.html#p131"/>
+				</pageTarget>
+			<pageTarget id="p132" type="normal" value="132">
+					<navLabel><text>132</text></navLabel>
+					<content src="chapter_08.html#p132"/>
+				</pageTarget>
+			<pageTarget id="p133" type="normal" value="133">
+					<navLabel><text>133</text></navLabel>
+					<content src="chapter_08.html#p133"/>
+				</pageTarget>
+			<pageTarget id="p134" type="normal" value="134">
+					<navLabel><text>134</text></navLabel>
+					<content src="chapter_08.html#p134"/>
+				</pageTarget>
+			<pageTarget id="p135" type="normal" value="135">
+					<navLabel><text>135</text></navLabel>
+					<content src="chapter_08.html#p135"/>
+				</pageTarget>				
+			<pageTarget id="p136" type="normal" value="136">
+					<navLabel><text>136</text></navLabel>
+					<content src="chapter_08.html#p136"/>
+				</pageTarget>			
+			<pageTarget id="p137" type="normal" value="137">
+					<navLabel><text>137</text></navLabel>
+					<content src="chapter_08.html#p137"/>
+				</pageTarget>				
+			
+
+
+			<pageTarget id="p139" type="normal" value="139">
+					<navLabel><text>139</text></navLabel>
+					<content src="chapter_09.html#p139"/>
+				</pageTarget>
+			<pageTarget id="p140" type="normal" value="140">
+					<navLabel><text>140</text></navLabel>
+					<content src="chapter_09.html#p140"/>
+				</pageTarget>
+			<pageTarget id="p141" type="normal" value="141">
+					<navLabel><text>141</text></navLabel>
+					<content src="chapter_09.html#p141"/>
+				</pageTarget>
+			<pageTarget id="p142" type="normal" value="142">
+					<navLabel><text>142</text></navLabel>
+					<content src="chapter_09.html#p142"/>
+				</pageTarget>	
+			<pageTarget id="p143" type="normal" value="143">
+					<navLabel><text>143</text></navLabel>
+					<content src="chapter_09.html#p143"/>
+				</pageTarget>
+			<pageTarget id="p144" type="normal" value="144">
+					<navLabel><text>144</text></navLabel>
+					<content src="chapter_09.html#p144"/>
+				</pageTarget>
+			<pageTarget id="p145" type="normal" value="145">
+					<navLabel><text>145</text></navLabel>
+					<content src="chapter_09.html#p145"/>
+				</pageTarget>
+			<pageTarget id="p146" type="normal" value="146">
+					<navLabel><text>146</text></navLabel>
+					<content src="chapter_09.html#p146"/>
+				</pageTarget>
+			<pageTarget id="p147" type="normal" value="147">
+					<navLabel><text>147</text></navLabel>
+					<content src="chapter_09.html#p147"/>
+				</pageTarget>
+			<pageTarget id="p148" type="normal" value="148">
+					<navLabel><text>148</text></navLabel>
+					<content src="chapter_09.html#p148"/>
+				</pageTarget>
+			<pageTarget id="p149" type="normal" value="149">
+					<navLabel><text>149</text></navLabel>
+					<content src="chapter_09.html#p149"/>
+				</pageTarget>
+			<pageTarget id="p150" type="normal" value="150">
+					<navLabel><text>150</text></navLabel>
+					<content src="chapter_09.html#p150"/>
+				</pageTarget>
+			<pageTarget id="p151" type="normal" value="151">
+					<navLabel><text>151</text></navLabel>
+					<content src="chapter_09.html#p151"/>
+				</pageTarget>
+			<pageTarget id="p152" type="normal" value="152">
+					<navLabel><text>152</text></navLabel>
+					<content src="chapter_09.html#p152"/>
+				</pageTarget>
+			<pageTarget id="p153" type="normal" value="153">
+					<navLabel><text>153</text></navLabel>
+					<content src="chapter_09.html#p153"/>
+				</pageTarget>
+			<pageTarget id="p154" type="normal" value="154">
+					<navLabel><text>154</text></navLabel>
+					<content src="chapter_09.html#p154"/>
+				</pageTarget>
+				
+				
+				
+			<pageTarget id="p155" type="normal" value="155">
+					<navLabel><text>155</text></navLabel>
+					<content src="chapter_10.html#p155"/>
+				</pageTarget>
+			<pageTarget id="p157" type="normal" value="157">
+					<navLabel><text>157</text></navLabel>
+					<content src="chapter_10.html#p157"/>
+				</pageTarget>
+			<pageTarget id="p158" type="normal" value="158">
+					<navLabel><text>158</text></navLabel>
+					<content src="chapter_10.html#p158"/>
+				</pageTarget>
+			<pageTarget id="p159" type="normal" value="159">
+					<navLabel><text>159</text></navLabel>
+					<content src="chapter_10.html#p159"/>
+				</pageTarget>
+			<pageTarget id="p160" type="normal" value="160">
+					<navLabel><text>160</text></navLabel>
+					<content src="chapter_10.html#p160"/>
+				</pageTarget>
+			<pageTarget id="p161" type="normal" value="161">
+					<navLabel><text>161</text></navLabel>
+					<content src="chapter_10.html#p161"/>
+				</pageTarget>
+			<pageTarget id="p162" type="normal" value="162">
+					<navLabel><text>162</text></navLabel>
+					<content src="chapter_10.html#p162"/>
+				</pageTarget>
+			<pageTarget id="p163" type="normal" value="163">
+					<navLabel><text>163</text></navLabel>
+					<content src="chapter_10.html#p163"/>
+				</pageTarget>
+			<pageTarget id="p164" type="normal" value="164">
+					<navLabel><text>164</text></navLabel>
+					<content src="chapter_10.html#p164"/>
+				</pageTarget>
+			<pageTarget id="p165" type="normal" value="165">
+					<navLabel><text>165</text></navLabel>
+					<content src="chapter_10.html#p165"/>
+				</pageTarget>
+			<pageTarget id="p166" type="normal" value="166">
+					<navLabel><text>166</text></navLabel>
+					<content src="chapter_10.html#p166"/>
+				</pageTarget>
+			<pageTarget id="p167" type="normal" value="167">
+					<navLabel><text>167</text></navLabel>
+					<content src="chapter_10.html#p167"/>
+				</pageTarget>
+				
+				
+				
+			<pageTarget id="p169" type="normal" value="169">
+					<navLabel><text>169</text></navLabel>
+					<content src="chapter_11.html#p169"/>
+				</pageTarget>
+			<pageTarget id="p170" type="normal" value="170">
+					<navLabel><text>170</text></navLabel>
+					<content src="chapter_11.html#p170"/>
+				</pageTarget>
+			<pageTarget id="p171" type="normal" value="171">
+					<navLabel><text>171</text></navLabel>
+					<content src="chapter_11.html#p171"/>
+				</pageTarget>
+			<pageTarget id="p172" type="normal" value="172">
+					<navLabel><text>172</text></navLabel>
+					<content src="chapter_11.html#p172"/>
+				</pageTarget>
+			<pageTarget id="p173" type="normal" value="173">
+					<navLabel><text>173</text></navLabel>
+					<content src="chapter_11.html#p173"/>
+				</pageTarget>
+			<pageTarget id="p174" type="normal" value="174">
+					<navLabel><text>174</text></navLabel>
+					<content src="chapter_11.html#p174"/>
+				</pageTarget>
+			<pageTarget id="p175" type="normal" value="175">
+					<navLabel><text>175</text></navLabel>
+					<content src="chapter_11.html#p175"/>
+				</pageTarget>
+			<pageTarget id="p176" type="normal" value="176">
+					<navLabel><text>176</text></navLabel>
+					<content src="chapter_11.html#p176"/>
+				</pageTarget>
+			<pageTarget id="p177" type="normal" value="177">
+					<navLabel><text>177</text></navLabel>
+					<content src="chapter_11.html#p177"/>
+				</pageTarget>
+			<pageTarget id="p178" type="normal" value="178">
+					<navLabel><text>178</text></navLabel>
+					<content src="chapter_11.html#p178"/>
+				</pageTarget>
+			<pageTarget id="p179" type="normal" value="179">
+					<navLabel><text>179</text></navLabel>
+					<content src="chapter_11.html#p179"/>
+				</pageTarget>
+				
+				
+			<pageTarget id="p181" type="normal" value="181">
+					<navLabel><text>181</text></navLabel>
+					<content src="chapter_12.html#p181"/>
+				</pageTarget>
+			<pageTarget id="p183" type="normal" value="183">
+					<navLabel><text>183</text></navLabel>
+					<content src="chapter_12.html#p183"/>
+				</pageTarget>
+			<pageTarget id="p184" type="normal" value="184">
+					<navLabel><text>184</text></navLabel>
+					<content src="chapter_12.html#p184"/>
+				</pageTarget>
+			<pageTarget id="p185" type="normal" value="185">
+					<navLabel><text>185</text></navLabel>
+					<content src="chapter_12.html#p185"/>
+				</pageTarget>
+			<pageTarget id="p186" type="normal" value="186">
+					<navLabel><text>186</text></navLabel>
+					<content src="chapter_12.html#p186"/>
+				</pageTarget>
+			<pageTarget id="p187" type="normal" value="187">
+					<navLabel><text>187</text></navLabel>
+					<content src="chapter_12.html#p187"/>
+				</pageTarget>
+			<pageTarget id="p188" type="normal" value="188">
+					<navLabel><text>188</text></navLabel>
+					<content src="chapter_12.html#p188"/>
+				</pageTarget>
+			<pageTarget id="p189" type="normal" value="189">
+					<navLabel><text>189</text></navLabel>
+					<content src="chapter_12.html#p189"/>
+				</pageTarget>
+			<pageTarget id="p190" type="normal" value="190">
+					<navLabel><text>190</text></navLabel>
+					<content src="chapter_12.html#p190"/>
+				</pageTarget>
+			<pageTarget id="p191" type="normal" value="191">
+					<navLabel><text>191</text></navLabel>
+					<content src="chapter_12.html#p191"/>
+				</pageTarget>
+			<pageTarget id="p192" type="normal" value="192">
+					<navLabel><text>192</text></navLabel>
+					<content src="chapter_12.html#p192"/>
+				</pageTarget>
+			<pageTarget id="p193" type="normal" value="193">
+					<navLabel><text>193</text></navLabel>
+					<content src="chapter_12.html#p193"/>
+				</pageTarget>
+				
+				
+			<pageTarget id="p195" type="normal" value="195">
+					<navLabel><text>195</text></navLabel>
+					<content src="chapter_13.html#p195"/>
+				</pageTarget>
+			<pageTarget id="p196" type="normal" value="196">
+					<navLabel><text>196</text></navLabel>
+					<content src="chapter_13.html#p196"/>
+				</pageTarget>
+			<pageTarget id="p197" type="normal" value="197">
+					<navLabel><text>197</text></navLabel>
+					<content src="chapter_13.html#p197"/>
+				</pageTarget>
+			<pageTarget id="p198" type="normal" value="198">
+					<navLabel><text>198</text></navLabel>
+					<content src="chapter_13.html#p198"/>
+				</pageTarget>
+			<pageTarget id="p199" type="normal" value="199">
+					<navLabel><text>199</text></navLabel>
+					<content src="chapter_13.html#p199"/>
+				</pageTarget>
+			<pageTarget id="p200" type="normal" value="200">
+					<navLabel><text>200</text></navLabel>
+					<content src="chapter_13.html#p200"/>
+				</pageTarget>
+			<pageTarget id="p201" type="normal" value="201">
+					<navLabel><text>201</text></navLabel>
+					<content src="chapter_13.html#p201"/>
+				</pageTarget>
+			<pageTarget id="p202" type="normal" value="202">
+					<navLabel><text>202</text></navLabel>
+					<content src="chapter_13.html#p202"/>
+				</pageTarget>
+			<pageTarget id="p203" type="normal" value="203">
+					<navLabel><text>203</text></navLabel>
+					<content src="chapter_13.html#p203"/>
+				</pageTarget>
+			<pageTarget id="p204" type="normal" value="204">
+					<navLabel><text>204</text></navLabel>
+					<content src="chapter_13.html#p204"/>
+				</pageTarget>
+			<pageTarget id="p205" type="normal" value="205">
+					<navLabel><text>205</text></navLabel>
+					<content src="chapter_13.html#p205"/>
+				</pageTarget>
+			<pageTarget id="p206" type="normal" value="206">
+					<navLabel><text>206</text></navLabel>
+					<content src="chapter_13.html#p206"/>
+				</pageTarget>
+			<pageTarget id="p207" type="normal" value="207">
+					<navLabel><text>207</text></navLabel>
+					<content src="chapter_13.html#p207"/>
+				</pageTarget>
+			<pageTarget id="p208" type="normal" value="208">
+					<navLabel><text>208</text></navLabel>
+					<content src="chapter_13.html#p208"/>
+				</pageTarget>
+			<pageTarget id="p209" type="normal" value="209">
+					<navLabel><text>209</text></navLabel>
+					<content src="chapter_13.html#p209"/>
+				</pageTarget>
+			<pageTarget id="p210" type="normal" value="210">
+					<navLabel><text>210</text></navLabel>
+					<content src="chapter_13.html#p210"/>
+				</pageTarget>
+			<pageTarget id="p211" type="normal" value="211">
+					<navLabel><text>211</text></navLabel>
+					<content src="chapter_13.html#p211"/>
+				</pageTarget>
+			<pageTarget id="p212" type="normal" value="212">
+					<navLabel><text>212</text></navLabel>
+					<content src="chapter_13.html#p212"/>
+				</pageTarget>
+			<pageTarget id="p213" type="normal" value="213">
+					<navLabel><text>213</text></navLabel>
+					<content src="chapter_13.html#p213"/>
+				</pageTarget>
+			<pageTarget id="p214" type="normal" value="214">
+					<navLabel><text>214</text></navLabel>
+					<content src="chapter_13.html#p214"/>
+				</pageTarget>
+			<pageTarget id="p215" type="normal" value="215">
+					<navLabel><text>215</text></navLabel>
+					<content src="chapter_13.html#p215"/>
+				</pageTarget>								
+
+				
+			<pageTarget id="p217" type="normal" value="217">
+					<navLabel><text>217</text></navLabel>
+					<content src="chapter_14.html#p217"/>
+				</pageTarget>
+			<pageTarget id="p218" type="normal" value="218">
+					<navLabel><text>218</text></navLabel>
+					<content src="chapter_14.html#p218"/>
+				</pageTarget>
+			<pageTarget id="p219" type="normal" value="219">
+					<navLabel><text>219</text></navLabel>
+					<content src="chapter_14.html#p219"/>
+				</pageTarget>
+			<pageTarget id="p220" type="normal" value="220">
+					<navLabel><text>220</text></navLabel>
+					<content src="chapter_14.html#p220"/>
+				</pageTarget>
+			<pageTarget id="p221" type="normal" value="221">
+					<navLabel><text>221</text></navLabel>
+					<content src="chapter_14.html#p221"/>
+				</pageTarget>
+			<pageTarget id="p222" type="normal" value="222">
+					<navLabel><text>222</text></navLabel>
+					<content src="chapter_14.html#p222"/>
+				</pageTarget>
+			<pageTarget id="p223" type="normal" value="223">
+					<navLabel><text>223</text></navLabel>
+					<content src="chapter_14.html#p223"/>
+				</pageTarget>
+			<pageTarget id="p224" type="normal" value="224">
+					<navLabel><text>224</text></navLabel>
+					<content src="chapter_14.html#p224"/>
+				</pageTarget>
+			<pageTarget id="p225" type="normal" value="225">
+					<navLabel><text>225</text></navLabel>
+					<content src="chapter_14.html#p225"/>
+				</pageTarget>
+			<pageTarget id="p226" type="normal" value="226">
+					<navLabel><text>226</text></navLabel>
+					<content src="chapter_14.html#p226"/>
+				</pageTarget>								
+			<pageTarget id="p227" type="normal" value="227">
+					<navLabel><text>227</text></navLabel>
+					<content src="chapter_14.html#p227"/>
+				</pageTarget>
+			<pageTarget id="p228" type="normal" value="228">
+					<navLabel><text>228</text></navLabel>
+					<content src="chapter_14.html#p228"/>
+				</pageTarget>	
+				
+				
+				
+			<pageTarget id="p229" type="normal" value="229">
+					<navLabel><text>229</text></navLabel>
+					<content src="Appendix_A.html#p229"/>
+				</pageTarget>
+			<pageTarget id="p230" type="normal" value="230">
+					<navLabel><text>230</text></navLabel>
+					<content src="Appendix_A.html#p230"/>
+				</pageTarget>
+			<pageTarget id="p231" type="normal" value="231">
+					<navLabel><text>231</text></navLabel>
+					<content src="Appendix_A.html#p231"/>
+				</pageTarget>
+			<pageTarget id="p232" type="normal" value="232">
+					<navLabel><text>232</text></navLabel>
+					<content src="Appendix_A.html#p232"/>
+				</pageTarget>
+			<pageTarget id="p233" type="normal" value="233">
+					<navLabel><text>233</text></navLabel>
+					<content src="Appendix_A.html#p233"/>
+				</pageTarget>
+			<pageTarget id="p234" type="normal" value="234">
+					<navLabel><text>234</text></navLabel>
+					<content src="Appendix_A.html#p234"/>
+				</pageTarget>
+			<pageTarget id="p235" type="normal" value="235">
+					<navLabel><text>235</text></navLabel>
+					<content src="Appendix_A.html#p235"/>
+				</pageTarget>
+			<pageTarget id="p236" type="normal" value="236">
+					<navLabel><text>236</text></navLabel>
+					<content src="Appendix_A.html#p236"/>
+				</pageTarget>
+				
+				
+				
+			<pageTarget id="p237" type="normal" value="237">
+					<navLabel><text>237</text></navLabel>
+					<content src="Appendix_B.html#p237"/>
+				</pageTarget>
+			<pageTarget id="p238" type="normal" value="238">
+					<navLabel><text>238</text></navLabel>
+					<content src="Appendix_B.html#p238"/>
+				</pageTarget>
+			<pageTarget id="p239" type="normal" value="239">
+					<navLabel><text>239</text></navLabel>
+					<content src="Appendix_B.html#p239"/>
+				</pageTarget>
+			<pageTarget id="p240" type="normal" value="240">
+					<navLabel><text>240</text></navLabel>
+					<content src="Appendix_B.html#p240"/>
+				</pageTarget>
+			<pageTarget id="p241" type="normal" value="241">
+					<navLabel><text>241</text></navLabel>
+					<content src="Appendix_B.html#p241"/>
+				</pageTarget>
+			<pageTarget id="p242" type="normal" value="242">
+					<navLabel><text>242</text></navLabel>
+					<content src="Appendix_B.html#p242"/>
+				</pageTarget>
+				
+
+				
+			<pageTarget id="p243" type="normal" value="243">
+					<navLabel><text>243</text></navLabel>
+					<content src="Appendix_C.html#p243"/>
+				</pageTarget>
+			<pageTarget id="p244" type="normal" value="244">
+					<navLabel><text>244</text></navLabel>
+					<content src="Appendix_C.html#p244"/>
+				</pageTarget>
+			<pageTarget id="p245" type="normal" value="245">
+					<navLabel><text>245</text></navLabel>
+					<content src="Appendix_C.html#p245"/>
+				</pageTarget>
+			<pageTarget id="p246" type="normal" value="246">
+					<navLabel><text>246</text></navLabel>
+					<content src="Appendix_C.html#p246"/>
+				</pageTarget>
+			<pageTarget id="p247" type="normal" value="247">
+					<navLabel><text>247</text></navLabel>
+					<content src="Appendix_C.html#p247"/>
+				</pageTarget>
+			<pageTarget id="p248" type="normal" value="248">
+					<navLabel><text>248</text></navLabel>
+					<content src="Appendix_C.html#p248"/>
+				</pageTarget>
+				
+				
+			<pageTarget id="p249" type="normal" value="249">
+					<navLabel><text>249</text></navLabel>
+					<content src="Appendix_D.html#p249"/>
+				</pageTarget>
+			<pageTarget id="p250" type="normal" value="250">
+					<navLabel><text>250</text></navLabel>
+					<content src="Appendix_D.html#p250"/>
+				</pageTarget>
+			<pageTarget id="p251" type="normal" value="251">
+					<navLabel><text>251</text></navLabel>
+					<content src="Appendix_D.html#p251"/>
+				</pageTarget>
+			<pageTarget id="p252" type="normal" value="252">
+					<navLabel><text>252</text></navLabel>
+					<content src="Appendix_D.html#p252"/>
+				</pageTarget>
+				
+				
+			<pageTarget id="p253" type="normal" value="253">
+					<navLabel><text>253</text></navLabel>
+					<content src="back_matter.html#p253"/>
+				</pageTarget>
+			<pageTarget id="p254" type="normal" value="254">
+					<navLabel><text>254</text></navLabel>
+					<content src="back_matter.html#p254"/>
+				</pageTarget>
+			<pageTarget id="p255" type="normal" value="255">
+					<navLabel><text>255</text></navLabel>
+					<content src="back_matter.html#p255"/>
+				</pageTarget>		
+			<pageTarget id="p257" type="normal" value="257">
+					<navLabel><text>257</text></navLabel>
+					<content src="back_matter.html#p257"/>
+				</pageTarget>
+			<pageTarget id="p258" type="normal" value="258">
+					<navLabel><text>258</text></navLabel>
+					<content src="back_matter.html#p258"/>
+				</pageTarget>
+			<pageTarget id="p259" type="normal" value="259">
+					<navLabel><text>259</text></navLabel>
+					<content src="back_matter.html#p259"/>
+				</pageTarget>
+			<pageTarget id="p260" type="normal" value="260">
+					<navLabel><text>260</text></navLabel>
+					<content src="back_matter.html#p260"/>
+				</pageTarget>
+
+		</pageList>		
+		
+		
+</ncx>
