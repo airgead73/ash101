@@ -63,9 +63,10 @@
 		flex: 0 0 auto;
 		width: 48%;
 		display: block;
+		align-self: center;
 	}
 	& .part_text {
-		flex: 0 0 0;
+		flex: 0 0 auto;
 		width: 48%;
 		display: block;
 	}
@@ -73,32 +74,32 @@
 
 .part:nth-of-type(odd) {
 	flex-direction: row;
-	&:after {
-		content: '';
-		position: absolute;
-		top: 0;
-		right: 0;
-		width: 0;
-		height: 0;
-		border-width: 0 39px 275px 0;
-		border-color: transparent white transparent transparent;
-		border-style: solid;
-	}
+	// &:after {
+	// 	content: '';
+	// 	position: absolute;
+	// 	top: 0;
+	// 	right: 0;
+	// 	width: 0;
+	// 	height: 0;
+	// 	border-width: 0 39px 275px 0;
+	// 	border-color: transparent white transparent transparent;
+	// 	border-style: solid;
+	// }
 }
 
 .part:nth-of-type(even) {
 	flex-direction: row-reverse;
-	&:after {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 0;
-		height: 0;
-		border-width: 0 0 275px 39px;
-		border-color: white transparent transparent white;
-		border-style: solid;
-	}
+	// &:after {
+	// 	content: '';
+	// 	position: absolute;
+	// 	top: 0;
+	// 	left: 0;
+	// 	width: 0;
+	// 	height: 0;
+	// 	border-width: 0 0 275px 39px;
+	// 	border-color: white transparent transparent white;
+	// 	border-style: solid;
+	// }
 }
 
 .part_title {
