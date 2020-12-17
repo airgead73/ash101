@@ -60,16 +60,12 @@
 	margin-bottom: 60px;
 	padding: 20px 16%;
 	& .part_img {
-		-webkit-box-flex: 0;
-		-ms-flex: 0 0 48%;
-		flex: 0 0 48%;
+		flex: 0 0 auto;
 		width: 48%;
 		display: block;
 	}
 	& .part_text {
-		-webkit-box-flex: 0;
-		-ms-flex: 0 0 48%;
-		flex: 0 0 48%;
+		flex: 0 0 0;
 		width: 48%;
 		display: block;
 	}
@@ -109,4 +105,5 @@
 	color: #c92b56;
 	font-family: RobotoBold;
 	font-size: 1.5rem;
+	word-break: keep-all; /*newly added*/
 }
